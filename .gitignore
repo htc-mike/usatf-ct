@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment / secrets (all locations)
+.env
+.env.*
+!.env.production
+
+# Node
+node_modules/
+src/frontend/dist/
+
+# Vite local env overrides
+src/frontend/.env.local
+src/frontend/.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Root-level folders to exclude from repo
+/config/
+/data/
+/working/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Exported static data (committed intentionally — do NOT ignore)
+!src/frontend/public/data/
+!src/frontend/public/data/*.json

@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-light text-gray-900 font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .rank-badge {
+    @apply inline-flex items-center justify-center w-7 h-7 rounded-full text-sm font-bold font-mono;
+  }
+  .rank-1 { @apply bg-brand-gold text-white; }
+  .rank-2 { @apply bg-gray-400 text-white; }
+  .rank-3 { @apply bg-amber-700 text-white; }
+  .rank-other { @apply bg-gray-200 text-gray-700; }
+
+  .filter-select {
+    @apply rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700
+           shadow-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20
+           focus:outline-none transition-colors;
+  }
+
+  .search-input {
+    @apply rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700
+           shadow-sm focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20
+           focus:outline-none transition-colors pl-9;
+  }
+
+  .table-container {
+    @apply overflow-x-auto rounded-xl border border-gray-100 shadow-sm bg-white;
+  }
+
+  .data-table {
+    @apply w-full text-sm text-left;
+  }
+
+  .data-table thead {
+    @apply bg-brand-navy text-white font-display tracking-wide uppercase text-xs;
+  }
+
+  .data-table thead th {
+    @apply px-4 py-3 font-semibold whitespace-nowrap;
+  }
+
+  .data-table tbody tr {
+    @apply border-t border-gray-50 hover:bg-blue-50/40 transition-colors;
+  }
+
+  .data-table tbody tr:nth-child(even) {
+    @apply bg-gray-50/60;
+  }
+
+  .data-table tbody td {
+    @apply px-4 py-2.5 whitespace-nowrap;
+  }
+
+  .time-cell {
+    @apply font-mono text-gray-800 font-medium;
+  }
+
+  .section-header {
+    @apply font-display text-2xl font-bold text-brand-navy tracking-wide uppercase;
+  }
+
+  .page-container {
+    @apply max-w-screen-xl mx-auto px-4 sm:px-6 py-8;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+
+  .division-open        { @apply pill bg-blue-100 text-blue-800; }
+  .division-masters     { @apply pill bg-purple-100 text-purple-800; }
+  .division-grandmasters{ @apply pill bg-emerald-100 text-emerald-800; }
+  .division-seniors     { @apply pill bg-amber-100 text-amber-800; }
+  .division-veteran     { @apply pill bg-gray-100 text-gray-700; }
+
+  .gender-m { @apply pill bg-sky-100 text-sky-800; }
+  .gender-f { @apply pill bg-pink-100 text-pink-800; }
+}

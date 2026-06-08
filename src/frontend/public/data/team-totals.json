@@ -1,0 +1,37 @@
+[
+  {
+    "team": "Manchester RC",
+    "total_points": 200,
+    "team_rank": 1
+  },
+  {
+    "team": "Sound Runner",
+    "total_points": 191,
+    "team_rank": 2
+  },
+  {
+    "team": "Mohegan Striders",
+    "total_points": 102,
+    "team_rank": 3
+  },
+  {
+    "team": "New Haven RR",
+    "total_points": 93,
+    "team_rank": 4
+  },
+  {
+    "team": "Milford RR",
+    "total_points": 85,
+    "team_rank": 5
+  },
+  {
+    "team": "Hartford TC",
+    "total_points": 68,
+    "team_rank": 6
+  },
+  {
+    "team": "Hartbeat TC",
+    "total_points": 64,
+    "team_rank": 7
+  }
+]

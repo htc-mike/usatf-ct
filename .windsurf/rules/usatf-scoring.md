@@ -1,0 +1,90 @@
+# USATF-CT Road Grand Prix Scoring Rules
+
+## Divisions
+Divisions are scored separately by gender (Male / Female).
+
+| Division     | Min Age | Scoring Members Required | Counts for Points  |
+|--------------|---------|--------------------------|---------------------|
+| Open         | 16+     | 5                        | Yes                 |
+| Masters      | 40+     | 3                        | Yes                 |
+| Grandmasters | 50+     | 3                        | Yes                 |
+| Seniors      | 60+     | 3                        | Yes                 |
+| Veteran      | 70+     | —                        | No (tracking only)  |
+
+- Age is as of race day.
+- Each higher division is a subset of all lower divisions (e.g., a 55-year-old is eligible for Masters, Grandmasters, but not Open unless age >= 16).
+- **Veteran (70+)** is tracked for reference purposes only — results are recorded but no team or individual points are awarded.
+- Runners must be registered USATF members affiliated with a club to score team points.
+- Unattached / non-club runners do not score for teams.
+
+---
+
+## Team Scoring (Per Event)
+
+### Eligibility
+- A team must have at least the required number of finishers for a division/gender to be scored.
+- Open: 5 finishers required (M and F separately)
+- All other divisions: 3 finishers required
+
+### Ranking
+- Teams are ranked by the **combined time** of their top N finishers (lowest total time = best).
+
+### Place Points
+Teams earn points based on their finish position among complete teams in their division/gender.
+
+| Place | Points |
+|-------|--------|
+| 1st   | 11     |
+| 2nd   | 9      |
+| 3rd   | 8      |
+| 4th   | 7      |
+| 5th   | 6      |
+| 6th   | 5      |
+| 7th   | 4      |
+| 8th   | 3      |
+| 9th   | 2      |
+| 10th  | 1      |
+
+### Tie-Breaking
+- Team ties are broken by whose **last scoring member finishes nearer to 1st place** (USATF Rule 7.9.b).
+
+---
+
+## Individual Scoring (Per Event)
+
+- Top 10 finishers per division/gender earn individual points.
+- Points are awarded separately for each division and gender.
+
+| Place | Points |
+|-------|--------|
+| 1st   | 11     |
+| 2nd   | 9      |
+| 3rd   | 8      |
+| 4th   | 7      |
+| 5th   | 6      |
+| 6th   | 5      |
+| 7th   | 4      |
+| 8th   | 3      |
+| 9th   | 2      |
+| 10th  | 1      |
+
+---
+
+## Season-End Grand Prix Standings
+
+- Team and individual points accumulate across all Grand Prix events.
+- Final standings are based on a team's (or individual's) **best N events** of the season (typically best 5).
+- Teams must participate in a minimum number of events to be eligible for awards (typically 3).
+
+---
+
+## Additional Notes
+
+- When an individual registers for a race with a gender different from their registered membership gender, they should be scored in the gender on their membership.
+
+---
+
+## References
+- USATF-CT Rules: http://www.usatf-ct.org/index.php/racing/road-grand-prix/rules/
+- USATF Rule 7.9.b (tie-breaking)
+- USATF Masters National Club Grand Prix Rules: https://usatfmasters.org/grand-prix/national-club-grand-prix-rules/
