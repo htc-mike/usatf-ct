@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 
-const LOGO_URL =
-  'http://www.usatf-ct.org/wp-content/uploads/2016/01/USATF_Local_Assoc_Logo_Horizontal_connecticut3.png'
+const LOGO_URL = `${import.meta.env.BASE_URL}usatf-ct-logo.png`
 
 const links = [
   { to: '/',           label: 'Home' },

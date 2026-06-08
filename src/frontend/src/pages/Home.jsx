@@ -4,8 +4,7 @@ import { useData } from '../hooks/useData'
 import { fetchEvents, fetchTeamTotals, fetchIndividualSeasonTotals } from '../services/api'
 import { Spinner, ErrorState } from '../components/LoadingState'
 
-const LOGO_URL =
-  'http://www.usatf-ct.org/wp-content/uploads/2016/01/USATF_Local_Assoc_Logo_Horizontal_connecticut3.png'
+const LOGO_URL = `${import.meta.env.BASE_URL}usatf-ct-logo.png`
 
 const sections = [
   {
