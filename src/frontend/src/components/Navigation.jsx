@@ -9,6 +9,7 @@ const links = [
   { to: '/team',       label: 'Team' },
   { to: '/individual', label: 'Individual' },
   { to: '/results',    label: 'Results' },
+  { to: '/members',    label: 'Members' },
 ]
 
 function NavItem({ to, label, onClick }) {

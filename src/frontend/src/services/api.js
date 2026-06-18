@@ -32,3 +32,4 @@ export const fetchTeamPoints = () => fetchJSON('/team-points')
 export const fetchTeamTotals = () => fetchJSON('/team-totals')
 export const fetchIndividualSeasonTotals = (limit = 50) =>
   fetchJSON(`/individual-season-totals?limit=${limit}`)
+export const fetchMembers = () => fetchJSON('/members')

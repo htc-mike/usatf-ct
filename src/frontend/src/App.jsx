@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Team from './pages/Team'
 import Individual from './pages/Individual'
 import Results from './pages/Results'
+import Members from './pages/Members'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
             <Route path="/team" element={<Team />} />
             <Route path="/individual" element={<Individual />} />
             <Route path="/results" element={<Results />} />
+            <Route path="/members" element={<Members />} />
           </Routes>
         </main>
       </div>

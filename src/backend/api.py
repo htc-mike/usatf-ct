@@ -373,3 +373,46 @@ def get_team_totals():
         return _to_records(df)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/members")
+@cached_endpoint()
+def get_members():
+    """All registered members with age-derived division, full_name, and races_participated."""
+    try:
+        df = ds.get_members()
+        if df.empty:
+            return []
+        df = df.copy()
+        if "age" in df.columns:
+            df["age"] = pd.to_numeric(df["age"], errors="coerce")
+        if "first_name" in df.columns and "last_name" in df.columns:
+            df["full_name"] = (
+                df["first_name"].str.strip() + " " + df["last_name"].str.strip()
+            )
+        # Derive division from age per USATF rules (highest eligible division)
+        df = _add_division_from_age(df, "age")
+        # Count distinct events each member has appeared in via results
+        try:
+            results_df = ds._read_tab(ds.TAB_RESULTS)
+            if not results_df.empty and "name" in results_df.columns and "event_id" in results_df.columns:
+                race_counts = (
+                    results_df.groupby("name")["event_id"]
+                    .nunique()
+                    .reset_index()
+                    .rename(columns={"name": "full_name", "event_id": "races_participated"})
+                )
+                df = df.merge(race_counts, on="full_name", how="left")
+                df["races_participated"] = (
+                    pd.to_numeric(df["races_participated"], errors="coerce").fillna(0).astype(int)
+                )
+            else:
+                df["races_participated"] = 0
+        except Exception:
+            df["races_participated"] = 0
+        sort_cols = [c for c in ("last_name", "first_name") if c in df.columns]
+        if sort_cols:
+            df = df.sort_values(sort_cols).reset_index(drop=True)
+        return _to_records(df)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

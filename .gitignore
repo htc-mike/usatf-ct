@@ -35,3 +35,6 @@ npm-debug.log*
 # Exported static data (committed intentionally — do NOT ignore)
 !src/frontend/public/data/
 !src/frontend/public/data/*.json
+
+# Misc
+run_local.bat
