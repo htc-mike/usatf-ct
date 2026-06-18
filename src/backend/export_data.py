@@ -43,6 +43,7 @@ def main() -> None:
         ("team-event-division-gender-totals",_api.get_team_event_division_gender_totals),
         ("team-points",                      _api.get_team_points),
         ("team-totals",                      _api.get_team_totals),
+        ("members",                          _api.get_members),
     ]
 
     ok = True
