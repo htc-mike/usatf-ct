@@ -123,7 +123,7 @@
     "runner": "Louis Free",
     "gender": "M",
     "team": "Manchester RC",
-    "total_points": 25,
+    "total_points": 24,
     "events": 3,
     "age": 66,
     "division": "Seniors",
@@ -310,6 +310,16 @@
     "rank": 16
   },
   {
+    "runner": "Phil Roucoulet",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 14,
+    "events": 3,
+    "age": 53,
+    "division": "Grandmasters",
+    "rank": 16
+  },
+  {
     "runner": "Patrick Guelakis",
     "gender": "M",
     "team": "New Haven RR",
@@ -317,17 +327,7 @@
     "events": 1,
     "age": 46,
     "division": "Masters",
-    "rank": 18
-  },
-  {
-    "runner": "Phil Roucoulet",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 13,
-    "events": 2,
-    "age": 53,
-    "division": "Grandmasters",
-    "rank": 18
+    "rank": 19
   },
   {
     "runner": "Scott Hart",
@@ -800,12 +800,12 @@
     "rank": 35
   },
   {
-    "runner": "Jacob Olson",
+    "runner": "Chris Rosenberg",
     "gender": "M",
-    "team": "Hartbeat TC",
+    "team": "Manchester RC",
     "total_points": 4,
     "events": 1,
-    "age": 31,
+    "age": 35,
     "division": "Open",
     "rank": 44
   },
@@ -860,6 +860,16 @@
     "rank": 38
   },
   {
+    "runner": "Jacob Olson",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 4,
+    "events": 1,
+    "age": 31,
+    "division": "Open",
+    "rank": 44
+  },
+  {
     "runner": "George Mastrogiannis",
     "gender": "M",
     "team": "Manchester RC",
@@ -867,16 +877,6 @@
     "events": 1,
     "age": 52,
     "division": "Grandmasters",
-    "rank": 44
-  },
-  {
-    "runner": "Stephen Fengler",
-    "gender": "M",
-    "team": "New Haven RR",
-    "total_points": 4,
-    "events": 1,
-    "age": 26,
-    "division": "Open",
     "rank": 44
   },
   {
@@ -890,13 +890,13 @@
     "rank": 44
   },
   {
-    "runner": "Roy Krause",
+    "runner": "Stephen Fengler",
     "gender": "M",
-    "team": "Manchester RC",
+    "team": "New Haven RR",
     "total_points": 3,
     "events": 1,
-    "age": 54,
-    "division": "Grandmasters",
+    "age": 26,
+    "division": "Open",
     "rank": 51
   },
   {
@@ -910,23 +910,13 @@
     "rank": 40
   },
   {
-    "runner": "Nicole LeBlanc",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 3,
-    "events": 1,
-    "age": 39,
-    "division": "Open",
-    "rank": 40
-  },
-  {
-    "runner": "Brendan Behm",
+    "runner": "Mike Dunlap",
     "gender": "M",
-    "team": "Hartbeat TC",
+    "team": "Hartford TC",
     "total_points": 3,
     "events": 1,
-    "age": 34,
-    "division": "Open",
+    "age": 61,
+    "division": "Seniors",
     "rank": 51
   },
   {
@@ -940,14 +930,24 @@
     "rank": 51
   },
   {
-    "runner": "Mike Dunlap",
+    "runner": "Roy Krause",
     "gender": "M",
-    "team": "Hartford TC",
+    "team": "Manchester RC",
     "total_points": 3,
     "events": 1,
-    "age": 61,
-    "division": "Seniors",
+    "age": 54,
+    "division": "Grandmasters",
     "rank": 51
+  },
+  {
+    "runner": "Nicole LeBlanc",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 3,
+    "events": 1,
+    "age": 39,
+    "division": "Open",
+    "rank": 40
   },
   {
     "runner": "Edward Sweeney",
@@ -990,12 +990,12 @@
     "rank": 51
   },
   {
-    "runner": "Chris Rosenberg",
+    "runner": "Brendan Behm",
     "gender": "M",
-    "team": "Manchester RC",
+    "team": "Hartbeat TC",
     "total_points": 3,
     "events": 1,
-    "age": 35,
+    "age": 34,
     "division": "Open",
     "rank": 51
   },
