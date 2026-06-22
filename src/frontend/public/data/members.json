@@ -6,7 +6,7 @@
     "age": 60,
     "team": "Sound Runner",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "KERRY ARSENAULT",
     "races_participated": 0
   },
@@ -17,7 +17,7 @@
     "age": 33,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Zachary Abeles",
     "races_participated": 1
   },
@@ -28,7 +28,7 @@
     "age": 33,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Elyse Adamic",
     "races_participated": 1
   },
@@ -39,9 +39,9 @@
     "age": 36,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Molly Alexander",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Igor",
@@ -50,9 +50,9 @@
     "age": 27,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Igor Aliczi",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Kristen",
@@ -61,7 +61,7 @@
     "age": 43,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kristen Amick",
     "races_participated": 2
   },
@@ -72,9 +72,9 @@
     "age": 64,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mark Ammann",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Fabiola",
@@ -83,7 +83,7 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Fabiola And??jar",
     "races_participated": 0
   },
@@ -94,7 +94,7 @@
     "age": 36,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Adam Anderson",
     "races_participated": 0
   },
@@ -105,7 +105,7 @@
     "age": 63,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeffrey Anderson",
     "races_participated": 0
   },
@@ -116,7 +116,7 @@
     "age": 24,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Megan Andrew",
     "races_participated": 2
   },
@@ -127,7 +127,7 @@
     "age": 43,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marie Arnesson Galler",
     "races_participated": 1
   },
@@ -138,9 +138,9 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Gavin Arnold",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Max",
@@ -149,7 +149,7 @@
     "age": 28,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Max Aronow",
     "races_participated": 2
   },
@@ -160,7 +160,7 @@
     "age": 59,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dave Baer",
     "races_participated": 0
   },
@@ -171,7 +171,7 @@
     "age": 24,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Susan Bansbach",
     "races_participated": 2
   },
@@ -182,7 +182,7 @@
     "age": 50,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicole Barile",
     "races_participated": 0
   },
@@ -193,9 +193,9 @@
     "age": 60,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Billy Barone",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "David",
@@ -204,7 +204,7 @@
     "age": 61,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Barr",
     "races_participated": 1
   },
@@ -215,7 +215,7 @@
     "age": 27,
     "team": "unaffiliated",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sarah Barrett",
     "races_participated": 1
   },
@@ -226,7 +226,7 @@
     "age": 74,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Charles Bartnicki",
     "races_participated": 0
   },
@@ -237,7 +237,7 @@
     "age": 32,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brittany Battis",
     "races_participated": 1
   },
@@ -248,9 +248,9 @@
     "age": 29,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bryan Bausinger",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Brendan",
@@ -259,9 +259,9 @@
     "age": 34,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brendan Behm",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Tom",
@@ -270,7 +270,7 @@
     "age": 35,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tom Benner",
     "races_participated": 0
   },
@@ -281,7 +281,7 @@
     "age": 58,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kenneth Berardi",
     "races_participated": 0
   },
@@ -292,9 +292,9 @@
     "age": 29,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lauren Berestecky",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Marisa",
@@ -303,7 +303,7 @@
     "age": 33,
     "team": "Hartford TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marisa Berti",
     "races_participated": 1
   },
@@ -314,9 +314,9 @@
     "age": 56,
     "team": "unaffiliated",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Thomas Biederer",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Russell",
@@ -325,7 +325,7 @@
     "age": 68,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Russell Blatt",
     "races_participated": 0
   },
@@ -336,9 +336,9 @@
     "age": 28,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kenneth Blinn",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "James",
@@ -347,7 +347,7 @@
     "age": 33,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "James Boeding",
     "races_participated": 0
   },
@@ -358,9 +358,9 @@
     "age": 69,
     "team": "Sound Runner",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dan Boissonneault",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Dean",
@@ -369,7 +369,7 @@
     "age": 71,
     "team": "Manchester RC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dean Bolt",
     "races_participated": 0
   },
@@ -380,7 +380,7 @@
     "age": 26,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ellianna Boothe",
     "races_participated": 1
   },
@@ -391,7 +391,7 @@
     "age": 46,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Matt Bordonaro",
     "races_participated": 0
   },
@@ -402,7 +402,7 @@
     "age": 38,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Carrie Bova",
     "races_participated": 0
   },
@@ -413,7 +413,7 @@
     "age": 53,
     "team": "New Haven RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Monica Brackney",
     "races_participated": 0
   },
@@ -424,9 +424,9 @@
     "age": 43,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Raquel Brainard",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Jonathan",
@@ -435,7 +435,7 @@
     "age": 33,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jonathan Briskman",
     "races_participated": 2
   },
@@ -446,7 +446,7 @@
     "age": 31,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Harrison Brown",
     "races_participated": 1
   },
@@ -457,7 +457,7 @@
     "age": 67,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "George Buchanan",
     "races_participated": 0
   },
@@ -468,7 +468,7 @@
     "age": 46,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bradford Buchta",
     "races_participated": 1
   },
@@ -479,7 +479,7 @@
     "age": 68,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Butler",
     "races_participated": 0
   },
@@ -490,7 +490,7 @@
     "age": 41,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Patrick Byrne",
     "races_participated": 1
   },
@@ -501,7 +501,7 @@
     "age": 29,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jesse Cala",
     "races_participated": 1
   },
@@ -512,9 +512,9 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Benjamin Cammett",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Anne",
@@ -523,7 +523,7 @@
     "age": 53,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Anne Campbell",
     "races_participated": 0
   },
@@ -534,7 +534,7 @@
     "age": 23,
     "team": "unaffiliated",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Juliana Cancellieri",
     "races_participated": 1
   },
@@ -545,7 +545,7 @@
     "age": 40,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Colleen Cannariato",
     "races_participated": 0
   },
@@ -556,7 +556,7 @@
     "age": 40,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Thomas Caponegro",
     "races_participated": 0
   },
@@ -567,9 +567,9 @@
     "age": 41,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lee Carlisle",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Tris",
@@ -578,7 +578,7 @@
     "age": 70,
     "team": "Manchester RC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tris Carta",
     "races_participated": 0
   },
@@ -589,7 +589,7 @@
     "age": 70,
     "team": "Manchester RC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tris John Carta",
     "races_participated": 0
   },
@@ -600,9 +600,9 @@
     "age": 44,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Castelluzzo",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Mario",
@@ -611,7 +611,7 @@
     "age": 34,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mario Castiello",
     "races_participated": 0
   },
@@ -622,7 +622,7 @@
     "age": 68,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Robert Castronova",
     "races_participated": 0
   },
@@ -633,7 +633,7 @@
     "age": 33,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Juan Chacon",
     "races_participated": 0
   },
@@ -644,7 +644,7 @@
     "age": 34,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Juan Chacon Vasquez",
     "races_participated": 1
   },
@@ -655,7 +655,7 @@
     "age": 64,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Randy Chamberland",
     "races_participated": 0
   },
@@ -666,9 +666,9 @@
     "age": 29,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cameron Chaplen",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Danielle",
@@ -677,7 +677,7 @@
     "age": 40,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Danielle Chapman",
     "races_participated": 0
   },
@@ -688,7 +688,7 @@
     "age": 26,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cameron Cheyney",
     "races_participated": 0
   },
@@ -699,7 +699,7 @@
     "age": 63,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Chris Chisholm",
     "races_participated": 0
   },
@@ -710,9 +710,9 @@
     "age": 37,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bob Chlum",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "David",
@@ -721,7 +721,7 @@
     "age": 34,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Chou",
     "races_participated": 3
   },
@@ -732,7 +732,7 @@
     "age": 57,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bruce Christensen",
     "races_participated": 0
   },
@@ -743,7 +743,7 @@
     "age": 22,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Trevor Christensen",
     "races_participated": 2
   },
@@ -754,9 +754,9 @@
     "age": 48,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jason Ciaciura",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Tracey",
@@ -765,7 +765,7 @@
     "age": 54,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tracey Clark",
     "races_participated": 3
   },
@@ -776,9 +776,9 @@
     "age": 53,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christopher Colangelo",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Hayley",
@@ -787,7 +787,7 @@
     "age": 26,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Hayley Collins",
     "races_participated": 0
   },
@@ -798,7 +798,7 @@
     "age": 28,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Andrea Condie",
     "races_participated": 3
   },
@@ -809,7 +809,7 @@
     "age": 36,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sarah Connor",
     "races_participated": 0
   },
@@ -820,9 +820,9 @@
     "age": 41,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lisa Conyer",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Robert",
@@ -831,7 +831,7 @@
     "age": 57,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Robert Cook",
     "races_participated": 1
   },
@@ -842,7 +842,7 @@
     "age": 28,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Clare Coons",
     "races_participated": 2
   },
@@ -853,9 +853,9 @@
     "age": 60,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Linda Cordova",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Nicole",
@@ -864,7 +864,7 @@
     "age": 33,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicole Cornwell",
     "races_participated": 0
   },
@@ -875,7 +875,7 @@
     "age": 30,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Cowles",
     "races_participated": 1
   },
@@ -886,7 +886,7 @@
     "age": 66,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ted Cowles",
     "races_participated": 2
   },
@@ -897,9 +897,9 @@
     "age": 27,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brian Coyne",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Jennifer",
@@ -908,7 +908,7 @@
     "age": 48,
     "team": "unaffiliated",
     "division": "Masters",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Jennifer Crowhurst",
     "races_participated": 1
   },
@@ -919,9 +919,9 @@
     "age": 67,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Maura DAndrea",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Bob",
@@ -930,7 +930,7 @@
     "age": 76,
     "team": "Hartford TC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bob Dacey",
     "races_participated": 0
   },
@@ -941,7 +941,7 @@
     "age": 30,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Quintin Dailey",
     "races_participated": 0
   },
@@ -952,7 +952,7 @@
     "age": 42,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicholai Dalidowitz",
     "races_participated": 1
   },
@@ -963,7 +963,7 @@
     "age": 46,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Daniel Daloia",
     "races_participated": 0
   },
@@ -974,7 +974,7 @@
     "age": 46,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Daniel Daloia Jr",
     "races_participated": 2
   },
@@ -985,7 +985,7 @@
     "age": 50,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Amy Daveluy",
     "races_participated": 1
   },
@@ -996,9 +996,9 @@
     "age": 33,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cara DeAngelis",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Dennis",
@@ -1007,7 +1007,7 @@
     "age": 44,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dennis DeBatte",
     "races_participated": 0
   },
@@ -1018,9 +1018,9 @@
     "age": 59,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cynthia DeGirolamo",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Connor",
@@ -1029,7 +1029,7 @@
     "age": 28,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Connor DeLaney",
     "races_participated": 0
   },
@@ -1040,7 +1040,7 @@
     "age": 17,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Hazel DeLucia",
     "races_participated": 0
   },
@@ -1051,7 +1051,7 @@
     "age": 47,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Stephanie DeLucia",
     "races_participated": 0
   },
@@ -1062,7 +1062,7 @@
     "age": 13,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tanner DeLucia",
     "races_participated": 0
   },
@@ -1073,7 +1073,7 @@
     "age": 29,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lucas Dellaporta",
     "races_participated": 2
   },
@@ -1084,9 +1084,9 @@
     "age": 56,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Denise Descheneaux",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Nicole",
@@ -1095,9 +1095,9 @@
     "age": 48,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicole Deziel",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Rosann",
@@ -1106,7 +1106,7 @@
     "age": 66,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Rosann DiRoma",
     "races_participated": 0
   },
@@ -1117,7 +1117,7 @@
     "age": 66,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Stephen Dinsmore",
     "races_participated": 0
   },
@@ -1128,7 +1128,7 @@
     "age": 28,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Daniel Dobbins",
     "races_participated": 0
   },
@@ -1139,7 +1139,7 @@
     "age": 36,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sarah Dombrowski",
     "races_participated": 1
   },
@@ -1150,7 +1150,7 @@
     "age": 58,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Theresa Donatelli",
     "races_participated": 1
   },
@@ -1161,9 +1161,9 @@
     "age": 23,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shuhan Du",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Jeffrey",
@@ -1172,7 +1172,7 @@
     "age": 32,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeffrey Duncan",
     "races_participated": 0
   },
@@ -1183,9 +1183,9 @@
     "age": 59,
     "team": "Hartford TC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Diane Dunlap",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Mike",
@@ -1194,9 +1194,9 @@
     "age": 60,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mike Dunlap",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Jared",
@@ -1205,7 +1205,7 @@
     "age": 25,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jared Dybas",
     "races_participated": 2
   },
@@ -1216,7 +1216,7 @@
     "age": 46,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Natalie Edwards",
     "races_participated": 0
   },
@@ -1227,9 +1227,9 @@
     "age": 54,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Melissa Emmerich",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Robert",
@@ -1238,9 +1238,9 @@
     "age": 44,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Robert Emord",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Deb",
@@ -1249,9 +1249,9 @@
     "age": 62,
     "team": "Sound Runner",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Deb Esposito",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Katie",
@@ -1260,9 +1260,9 @@
     "age": 34,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Katie Esposito",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "GARRETT",
@@ -1271,7 +1271,7 @@
     "age": 57,
     "team": "Hartbeat TC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "GARRETT FLYNN",
     "races_participated": 0
   },
@@ -1282,7 +1282,7 @@
     "age": 45,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ian Fenger",
     "races_participated": 0
   },
@@ -1293,7 +1293,7 @@
     "age": 25,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Stephen Fengler",
     "races_participated": 2
   },
@@ -1304,9 +1304,9 @@
     "age": 46,
     "team": "Hartford TC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Richard Fernandes",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Travis",
@@ -1315,7 +1315,7 @@
     "age": 32,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Travis Fields",
     "races_participated": 2
   },
@@ -1326,7 +1326,7 @@
     "age": 71,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "William Finlayson",
     "races_participated": 0
   },
@@ -1337,7 +1337,7 @@
     "age": 66,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Stephan Finton",
     "races_participated": 1
   },
@@ -1348,7 +1348,7 @@
     "age": 24,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Abigail Fischer",
     "races_participated": 0
   },
@@ -1359,7 +1359,7 @@
     "age": 29,
     "team": "Red Rose TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ciaran Fisher",
     "races_participated": 1
   },
@@ -1370,7 +1370,7 @@
     "age": 50,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Aaron Flamino",
     "races_participated": 0
   },
@@ -1381,7 +1381,7 @@
     "age": 73,
     "team": "unaffiliated",
     "division": "Veteran",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Mark Flanagan",
     "races_participated": 1
   },
@@ -1392,9 +1392,9 @@
     "age": 34,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Fleming",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Louis",
@@ -1403,9 +1403,9 @@
     "age": 65,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Louis Free",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "David",
@@ -1414,9 +1414,9 @@
     "age": 49,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Fusfeld",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "John",
@@ -1425,9 +1425,9 @@
     "age": 57,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Gaffney",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Alison",
@@ -1436,9 +1436,9 @@
     "age": 58,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alison Gallerani",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Franklyn",
@@ -1447,9 +1447,9 @@
     "age": 38,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Franklyn Gandiaga",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Anne",
@@ -1458,9 +1458,9 @@
     "age": 69,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Anne Gaston",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Thomas",
@@ -1469,7 +1469,7 @@
     "age": 43,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Thomas Geer",
     "races_participated": 0
   },
@@ -1480,9 +1480,9 @@
     "age": 43,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Tom Geer",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Lorraine",
@@ -1491,9 +1491,9 @@
     "age": 62,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lorraine Giantonio",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Jason",
@@ -1502,7 +1502,7 @@
     "age": 24,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jason Gibbons",
     "races_participated": 1
   },
@@ -1513,7 +1513,7 @@
     "age": 69,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Maureen Gillis",
     "races_participated": 0
   },
@@ -1524,9 +1524,9 @@
     "age": 48,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Larissa Giordano",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Charles",
@@ -1535,7 +1535,7 @@
     "age": 56,
     "team": "New Haven RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Charles Glass",
     "races_participated": 0
   },
@@ -1546,9 +1546,9 @@
     "age": 67,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin Glenn",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Marvin",
@@ -1557,7 +1557,7 @@
     "age": 64,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marvin Goldie",
     "races_participated": 0
   },
@@ -1568,7 +1568,7 @@
     "age": 36,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Anthony Gonsalves",
     "races_participated": 1
   },
@@ -1579,7 +1579,7 @@
     "age": 30,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Goodrich",
     "races_participated": 2
   },
@@ -1590,7 +1590,7 @@
     "age": 49,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shelley Goodstine",
     "races_participated": 0
   },
@@ -1601,7 +1601,7 @@
     "age": 39,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Timothy Goric",
     "races_participated": 0
   },
@@ -1612,7 +1612,7 @@
     "age": 47,
     "team": "Hartbeat TC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brian Graca",
     "races_participated": 1
   },
@@ -1623,7 +1623,7 @@
     "age": 43,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Becky Grant",
     "races_participated": 0
   },
@@ -1634,7 +1634,7 @@
     "age": 43,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeremy Grant",
     "races_participated": 0
   },
@@ -1645,7 +1645,7 @@
     "age": 32,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michela Greco",
     "races_participated": 1
   },
@@ -1656,7 +1656,7 @@
     "age": 41,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Andrew Griffin",
     "races_participated": 1
   },
@@ -1667,9 +1667,9 @@
     "age": 45,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Patrick Guelakis",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "David",
@@ -1678,7 +1678,7 @@
     "age": 55,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Guzik",
     "races_participated": 0
   },
@@ -1689,9 +1689,9 @@
     "age": 36,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Everett Hackett",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Susan",
@@ -1700,7 +1700,7 @@
     "age": 62,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Susan Hammond",
     "races_participated": 3
   },
@@ -1711,7 +1711,7 @@
     "age": 39,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Colleen Hardison",
     "races_participated": 0
   },
@@ -1722,9 +1722,9 @@
     "age": 52,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kristen Hart",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Scott",
@@ -1733,9 +1733,9 @@
     "age": 56,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Scott Hart",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Rachel",
@@ -1744,7 +1744,7 @@
     "age": 27,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Rachel Haviland",
     "races_participated": 0
   },
@@ -1755,7 +1755,7 @@
     "age": 47,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Hildie Heck",
     "races_participated": 0
   },
@@ -1766,9 +1766,9 @@
     "age": 71,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Melinda Hedding",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Way",
@@ -1777,9 +1777,9 @@
     "age": 75,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Way Hedding",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Mark",
@@ -1788,9 +1788,9 @@
     "age": 31,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mark Hegarty",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Shane",
@@ -1799,9 +1799,9 @@
     "age": 25,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shane Henderson",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Andrew",
@@ -1810,7 +1810,7 @@
     "age": 39,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Andrew Herzog",
     "races_participated": 0
   },
@@ -1821,9 +1821,9 @@
     "age": 75,
     "team": "Milford RR",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jane Holler",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Barbara",
@@ -1832,7 +1832,7 @@
     "age": 65,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Barbara Hopkins",
     "races_participated": 2
   },
@@ -1843,7 +1843,7 @@
     "age": 35,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin Hoyt",
     "races_participated": 2
   },
@@ -1854,7 +1854,7 @@
     "age": 31,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Erin Hub",
     "races_participated": 0
   },
@@ -1865,9 +1865,9 @@
     "age": 46,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Miranda Ip",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Xavier",
@@ -1876,9 +1876,9 @@
     "age": 21,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Xavier Iraeta",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Mitchell",
@@ -1887,7 +1887,7 @@
     "age": 24,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mitchell Jacob",
     "races_participated": 0
   },
@@ -1898,7 +1898,7 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jake Jayworth",
     "races_participated": 2
   },
@@ -1909,7 +1909,7 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Josephine Jayworth",
     "races_participated": 2
   },
@@ -1920,9 +1920,9 @@
     "age": 45,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dawn Jenci",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Amanda",
@@ -1931,7 +1931,7 @@
     "age": 37,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Amanda Jenkins Setzer",
     "races_participated": 1
   },
@@ -1942,9 +1942,9 @@
     "age": 38,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mary Johnson",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Kate",
@@ -1953,7 +1953,7 @@
     "age": 42,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kate Johnston",
     "races_participated": 2
   },
@@ -1964,7 +1964,7 @@
     "age": 52,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Johnston",
     "races_participated": 1
   },
@@ -1975,7 +1975,7 @@
     "age": 61,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kris Anne Kane",
     "races_participated": 1
   },
@@ -1986,7 +1986,7 @@
     "age": 61,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Kris-Anne Kane",
     "races_participated": 2
   },
@@ -1997,7 +1997,7 @@
     "age": 24,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alexandra Kenealy",
     "races_participated": 0
   },
@@ -2008,9 +2008,9 @@
     "age": 66,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dani Kennedy",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Ned",
@@ -2019,9 +2019,9 @@
     "age": 66,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ned Kennedy",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Charlotte",
@@ -2030,9 +2030,9 @@
     "age": 15,
     "team": "unaffiliated",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Charlotte Kenney",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Bob",
@@ -2041,9 +2041,9 @@
     "age": 51,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bob Kerwin",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Aaron",
@@ -2052,7 +2052,7 @@
     "age": 41,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Aaron King",
     "races_participated": 3
   },
@@ -2063,7 +2063,7 @@
     "age": 41,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Beth Kingsley",
     "races_participated": 0
   },
@@ -2074,7 +2074,7 @@
     "age": 42,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Elizabeth Kingsley",
     "races_participated": 2
   },
@@ -2085,7 +2085,7 @@
     "age": 35,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Courtney Knapp",
     "races_participated": 0
   },
@@ -2096,7 +2096,7 @@
     "age": 68,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cathi Koehler",
     "races_participated": 0
   },
@@ -2107,7 +2107,7 @@
     "age": 37,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bridget Komosky",
     "races_participated": 0
   },
@@ -2118,9 +2118,9 @@
     "age": 27,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Allie Konrad",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Andrew",
@@ -2129,7 +2129,7 @@
     "age": 59,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Andrew Kortfelt",
     "races_participated": 0
   },
@@ -2140,7 +2140,7 @@
     "age": 41,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christopher Kozey",
     "races_participated": 0
   },
@@ -2151,7 +2151,7 @@
     "age": 53,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Roy Krause",
     "races_participated": 1
   },
@@ -2162,7 +2162,7 @@
     "age": 43,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nathan Kucera",
     "races_participated": 0
   },
@@ -2173,7 +2173,7 @@
     "age": 64,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lisa Kugelman",
     "races_participated": 1
   },
@@ -2184,7 +2184,7 @@
     "age": 33,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "EMBERLEIGH LUCE",
     "races_participated": 0
   },
@@ -2195,9 +2195,9 @@
     "age": 27,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ben Lanza",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Tristen",
@@ -2206,9 +2206,9 @@
     "age": 27,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tristen Lawrence",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Nicole",
@@ -2217,9 +2217,9 @@
     "age": 39,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicole LeBlanc",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Shahan",
@@ -2228,7 +2228,7 @@
     "age": 37,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shahan Leach",
     "races_participated": 1
   },
@@ -2239,9 +2239,9 @@
     "age": 71,
     "team": "Manchester RC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bonnie Lees",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Neal",
@@ -2250,7 +2250,7 @@
     "age": 57,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Neal Leibowitz",
     "races_participated": 0
   },
@@ -2261,7 +2261,7 @@
     "age": 50,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Felicia Liebler",
     "races_participated": 2
   },
@@ -2272,9 +2272,9 @@
     "age": 21,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Jacob Lindahl",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Phoebe",
@@ -2283,7 +2283,7 @@
     "age": 24,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Phoebe Liu",
     "races_participated": 3
   },
@@ -2294,9 +2294,9 @@
     "age": 35,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cory Loftis",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Mario",
@@ -2305,9 +2305,9 @@
     "age": 53,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mario Longo",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Cynthia",
@@ -2316,9 +2316,9 @@
     "age": 65,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cynthia Loynd",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Tiger",
@@ -2327,7 +2327,7 @@
     "age": 27,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tiger Lu",
     "races_participated": 2
   },
@@ -2338,7 +2338,7 @@
     "age": 31,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tyler Lyon",
     "races_participated": 2
   },
@@ -2349,7 +2349,7 @@
     "age": 55,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Earl MacDonald",
     "races_participated": 1
   },
@@ -2360,9 +2360,9 @@
     "age": 68,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin MacDonald",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Alessandro",
@@ -2371,9 +2371,9 @@
     "age": 40,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alessandro Macchi",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Alan",
@@ -2382,7 +2382,7 @@
     "age": 60,
     "team": "Sound Runner",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alan Macdougall",
     "races_participated": 1
   },
@@ -2393,7 +2393,7 @@
     "age": 59,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Margit Macdougall",
     "races_participated": 0
   },
@@ -2404,7 +2404,7 @@
     "age": 52,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Luke Macomber",
     "races_participated": 1
   },
@@ -2415,9 +2415,9 @@
     "age": 43,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Vikash Malik",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Lori",
@@ -2426,7 +2426,7 @@
     "age": 48,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lori Marcantonio",
     "races_participated": 1
   },
@@ -2437,7 +2437,7 @@
     "age": 61,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeanne Marchand",
     "races_participated": 0
   },
@@ -2448,7 +2448,7 @@
     "age": 37,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Khrysty Mark",
     "races_participated": 1
   },
@@ -2459,7 +2459,7 @@
     "age": 54,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brian Marquez",
     "races_participated": 0
   },
@@ -2470,7 +2470,7 @@
     "age": 67,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "James Mas",
     "races_participated": 1
   },
@@ -2481,7 +2481,7 @@
     "age": 67,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jim Mas",
     "races_participated": 0
   },
@@ -2492,7 +2492,7 @@
     "age": 51,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "George Mastrogiannis",
     "races_participated": 1
   },
@@ -2503,7 +2503,7 @@
     "age": 51,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marc Mazzalupo",
     "races_participated": 1
   },
@@ -2514,7 +2514,7 @@
     "age": 29,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Celine Mazzi",
     "races_participated": 0
   },
@@ -2525,7 +2525,7 @@
     "age": 48,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "James McCaffrey",
     "races_participated": 0
   },
@@ -2536,7 +2536,7 @@
     "age": 62,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jennifer McCormick",
     "races_participated": 0
   },
@@ -2547,9 +2547,9 @@
     "age": 48,
     "team": "Hartbeat TC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David McCrea-Dastur",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Kathryn",
@@ -2558,7 +2558,7 @@
     "age": 30,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kathryn McDarris",
     "races_participated": 0
   },
@@ -2569,7 +2569,7 @@
     "age": 71,
     "team": "Sound Runner",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Derek McGlynn",
     "races_participated": 2
   },
@@ -2580,9 +2580,9 @@
     "age": 69,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David McKinley",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Colin",
@@ -2591,9 +2591,9 @@
     "age": 43,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Colin McNamee",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Robert",
@@ -2602,7 +2602,7 @@
     "age": 58,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Robert Mccarthy",
     "races_participated": 0
   },
@@ -2613,7 +2613,7 @@
     "age": 30,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Megan Mccollum",
     "races_participated": 0
   },
@@ -2624,7 +2624,7 @@
     "age": 14,
     "team": "unaffiliated",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Madison Mcgarry",
     "races_participated": 0
   },
@@ -2635,7 +2635,7 @@
     "age": 18,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Samantha Mckulsky",
     "races_participated": 0
   },
@@ -2646,7 +2646,7 @@
     "age": 52,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Chris Merrill",
     "races_participated": 0
   },
@@ -2657,9 +2657,9 @@
     "age": 70,
     "team": "Milford RR",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jerry Meshell",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Thomas",
@@ -2668,9 +2668,9 @@
     "age": 69,
     "team": "New Haven RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Thomas Messer",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Kevin",
@@ -2679,7 +2679,7 @@
     "age": 28,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin Michalka",
     "races_participated": 3
   },
@@ -2690,7 +2690,7 @@
     "age": 35,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicholas Migani",
     "races_participated": 0
   },
@@ -2701,7 +2701,7 @@
     "age": 50,
     "team": "New Haven RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kathryn Miller-Jensen",
     "races_participated": 1
   },
@@ -2712,9 +2712,9 @@
     "age": 58,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kerry Milner",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Peter",
@@ -2723,9 +2723,9 @@
     "age": 26,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Peter Milner",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "John",
@@ -2734,9 +2734,9 @@
     "age": 62,
     "team": "Sound Runner",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Minervino",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Michael",
@@ -2745,9 +2745,9 @@
     "age": 35,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Minopoli",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Michael",
@@ -2756,9 +2756,9 @@
     "age": 36,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Mobilio",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Matthew",
@@ -2767,7 +2767,7 @@
     "age": 53,
     "team": "New Haven RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Matthew Monahan",
     "races_participated": 3
   },
@@ -2778,9 +2778,9 @@
     "age": 30,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Olivia Mondo",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Nancy",
@@ -2789,9 +2789,9 @@
     "age": 29,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nancy Montemerlo",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Tracy",
@@ -2800,7 +2800,7 @@
     "age": 61,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tracy Montoya",
     "races_participated": 1
   },
@@ -2811,7 +2811,7 @@
     "age": 71,
     "team": "Milford RR",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Moyse",
     "races_participated": 1
   },
@@ -2822,7 +2822,7 @@
     "age": 31,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Chris Mulhall",
     "races_participated": 1
   },
@@ -2833,7 +2833,7 @@
     "age": 31,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christopher Mulhall",
     "races_participated": 0
   },
@@ -2844,7 +2844,7 @@
     "age": 61,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Mullaney",
     "races_participated": 0
   },
@@ -2855,7 +2855,7 @@
     "age": 26,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Matthew Murphy",
     "races_participated": 0
   },
@@ -2866,7 +2866,7 @@
     "age": 63,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Eileen Mydosh",
     "races_participated": 1
   },
@@ -2877,9 +2877,9 @@
     "age": 34,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alyssa Natario",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Caroline",
@@ -2888,9 +2888,9 @@
     "age": 33,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Caroline Nevin",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Geoffrey",
@@ -2899,7 +2899,7 @@
     "age": 38,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Geoffrey Nooney",
     "races_participated": 2
   },
@@ -2910,7 +2910,7 @@
     "age": 43,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Carolyn Nye",
     "races_participated": 1
   },
@@ -2921,7 +2921,7 @@
     "age": 28,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Grant O'Connor",
     "races_participated": 1
   },
@@ -2932,7 +2932,7 @@
     "age": 62,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Fran O'Donoghue",
     "races_participated": 0
   },
@@ -2943,9 +2943,9 @@
     "age": 28,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Morgan Oberhausen",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Nancy",
@@ -2954,9 +2954,9 @@
     "age": 73,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nancy Olsen",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Peter",
@@ -2965,7 +2965,7 @@
     "age": 74,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Peter Olsen",
     "races_participated": 0
   },
@@ -2976,7 +2976,7 @@
     "age": 31,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jacob Olson",
     "races_participated": 1
   },
@@ -2987,7 +2987,7 @@
     "age": 27,
     "team": "unaffiliated",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Ornato",
     "races_participated": 1
   },
@@ -2998,9 +2998,9 @@
     "age": 34,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ala Oueslati",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Betsy",
@@ -3009,9 +3009,9 @@
     "age": 23,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Betsy Overstrum",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Katie",
@@ -3020,9 +3020,9 @@
     "age": 27,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Katie Overstrum",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Kevin",
@@ -3031,7 +3031,7 @@
     "age": 37,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin O‚ÄôConnor",
     "races_participated": 0
   },
@@ -3042,7 +3042,7 @@
     "age": 48,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christopher Pagliuco",
     "races_participated": 2
   },
@@ -3053,7 +3053,7 @@
     "age": 47,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Meghan Pagliuco",
     "races_participated": 0
   },
@@ -3064,9 +3064,9 @@
     "age": 43,
     "team": "New Haven RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Miche Palmer",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Allen",
@@ -3075,7 +3075,7 @@
     "age": 38,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Allen Pangilinan",
     "races_participated": 1
   },
@@ -3086,9 +3086,9 @@
     "age": 62,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Charles Pape",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Sarah",
@@ -3097,9 +3097,9 @@
     "age": 34,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sarah Parker",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Tracy",
@@ -3108,7 +3108,7 @@
     "age": 57,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tracy Parkin",
     "races_participated": 0
   },
@@ -3119,7 +3119,7 @@
     "age": 70,
     "team": "Milford RR",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Barbara Pearce",
     "races_participated": 3
   },
@@ -3130,7 +3130,7 @@
     "age": 41,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sara Pearson",
     "races_participated": 2
   },
@@ -3141,9 +3141,9 @@
     "age": 35,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jose Perez",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Debbie",
@@ -3152,7 +3152,7 @@
     "age": 69,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Debbie Perry",
     "races_participated": 3
   },
@@ -3163,7 +3163,7 @@
     "age": 65,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Al Phillips",
     "races_participated": 1
   },
@@ -3174,7 +3174,7 @@
     "age": 65,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Albert Phillips",
     "races_participated": 0
   },
@@ -3185,7 +3185,7 @@
     "age": 70,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christine Picklo",
     "races_participated": 0
   },
@@ -3196,9 +3196,9 @@
     "age": 28,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Roberto Piotto",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Marco",
@@ -3207,7 +3207,7 @@
     "age": 28,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marco Pirazzini",
     "races_participated": 2
   },
@@ -3218,9 +3218,9 @@
     "age": 29,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Vincent Pistritto",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Madison",
@@ -3229,7 +3229,7 @@
     "age": 22,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Madison Platt",
     "races_participated": 2
   },
@@ -3240,7 +3240,7 @@
     "age": 41,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kate Plummer",
     "races_participated": 0
   },
@@ -3251,9 +3251,9 @@
     "age": 56,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Pozika",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Erin",
@@ -3262,7 +3262,7 @@
     "age": 41,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Erin Prather",
     "races_participated": 0
   },
@@ -3273,7 +3273,7 @@
     "age": 32,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Prizzi",
     "races_participated": 0
   },
@@ -3284,7 +3284,7 @@
     "age": 33,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Olivia Provance",
     "races_participated": 2
   },
@@ -3295,7 +3295,7 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Daniel Purschke",
     "races_participated": 2
   },
@@ -3306,9 +3306,9 @@
     "age": 64,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marilyn Quinlan",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Rachel",
@@ -3317,9 +3317,9 @@
     "age": 32,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Rachel Quinn-Brown",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Omar",
@@ -3328,7 +3328,7 @@
     "age": 26,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Omar Radwan",
     "races_participated": 1
   },
@@ -3339,7 +3339,7 @@
     "age": 54,
     "team": "Hartford TC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lani Ralston",
     "races_participated": 0
   },
@@ -3350,7 +3350,7 @@
     "age": 31,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tyler Raymond",
     "races_participated": 0
   },
@@ -3361,9 +3361,9 @@
     "age": 33,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mira Records",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Mary",
@@ -3372,7 +3372,7 @@
     "age": 68,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mary Regalbuto",
     "races_participated": 0
   },
@@ -3383,7 +3383,7 @@
     "age": 32,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Devyn Reid",
     "races_participated": 0
   },
@@ -3394,7 +3394,7 @@
     "age": 30,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tyler Renfro",
     "races_participated": 1
   },
@@ -3405,7 +3405,7 @@
     "age": 43,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dorothy Rhodes",
     "races_participated": 0
   },
@@ -3416,7 +3416,7 @@
     "age": 13,
     "team": "New Haven Age Group TC",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Lily Ridge",
     "races_participated": 1
   },
@@ -3427,7 +3427,7 @@
     "age": 58,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sharon Ripp",
     "races_participated": 0
   },
@@ -3438,9 +3438,9 @@
     "age": 42,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shelly Rivera",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Victor",
@@ -3449,9 +3449,9 @@
     "age": 42,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Victor Rivera",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Bill",
@@ -3460,9 +3460,9 @@
     "age": 62,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bill Rollinson",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Katelynn",
@@ -3471,7 +3471,7 @@
     "age": 26,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Katelynn Romanchick",
     "races_participated": 2
   },
@@ -3482,9 +3482,9 @@
     "age": 30,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Colin Rooney",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Chris",
@@ -3493,7 +3493,7 @@
     "age": 35,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Chris Rosenberg",
     "races_participated": 2
   },
@@ -3504,7 +3504,7 @@
     "age": 35,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christopher Rosenberg",
     "races_participated": 0
   },
@@ -3515,9 +3515,9 @@
     "age": 34,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Megan Rosenberg",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Caitlin",
@@ -3526,7 +3526,7 @@
     "age": 40,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Caitlin Roston",
     "races_participated": 1
   },
@@ -3537,9 +3537,9 @@
     "age": 53,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Phil Roucoulet",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "LuAnne",
@@ -3548,9 +3548,9 @@
     "age": 70,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "LuAnne Roy",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Cynthia",
@@ -3559,7 +3559,7 @@
     "age": 48,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cynthia Ruel",
     "races_participated": 0
   },
@@ -3570,7 +3570,7 @@
     "age": 61,
     "team": "unaffiliated",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mike (Torpedo) Ruospo",
     "races_participated": 1
   },
@@ -3581,7 +3581,7 @@
     "age": 65,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "KAREN SHORT",
     "races_participated": 0
   },
@@ -3592,9 +3592,9 @@
     "age": 31,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Alexandra Salinsky",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Matt",
@@ -3603,7 +3603,7 @@
     "age": 50,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Matt Santillo",
     "races_participated": 0
   },
@@ -3614,7 +3614,7 @@
     "age": 39,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "MyLan Sarner",
     "races_participated": 0
   },
@@ -3625,7 +3625,7 @@
     "age": 31,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brittany Sarza",
     "races_participated": 0
   },
@@ -3636,7 +3636,7 @@
     "age": 67,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cindy Scannell",
     "races_participated": 0
   },
@@ -3647,9 +3647,9 @@
     "age": 59,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Laurie Schaeffer",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Benjamin",
@@ -3658,7 +3658,7 @@
     "age": 29,
     "team": "unaffiliated",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Benjamin Schafer",
     "races_participated": 1
   },
@@ -3669,7 +3669,7 @@
     "age": 32,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicholas Schindler",
     "races_participated": 2
   },
@@ -3680,7 +3680,7 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Eric Schreiber",
     "races_participated": 1
   },
@@ -3691,7 +3691,7 @@
     "age": 39,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Joel Schrock",
     "races_participated": 1
   },
@@ -3702,9 +3702,9 @@
     "age": 25,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Pia Schwarz",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Sarah",
@@ -3713,7 +3713,7 @@
     "age": 54,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sarah Sevick",
     "races_participated": 1
   },
@@ -3724,9 +3724,9 @@
     "age": 57,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kathleen Shaw",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Ethan",
@@ -3735,7 +3735,7 @@
     "age": 26,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ethan Shea",
     "races_participated": 1
   },
@@ -3746,7 +3746,7 @@
     "age": 37,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jessica Smith",
     "races_participated": 2
   },
@@ -3757,9 +3757,9 @@
     "age": 34,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Snow",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Thomas",
@@ -3768,7 +3768,7 @@
     "age": 62,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Thomas Soisson",
     "races_participated": 0
   },
@@ -3779,9 +3779,9 @@
     "age": 62,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Tom Soisson",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Paul",
@@ -3790,7 +3790,7 @@
     "age": 32,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Soto Bolanos",
     "races_participated": 1
   },
@@ -3801,9 +3801,9 @@
     "age": 37,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kristin Spirdione",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Michael",
@@ -3812,9 +3812,9 @@
     "age": 52,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Stadolnik",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "James",
@@ -3823,7 +3823,7 @@
     "age": 30,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "James Steele",
     "races_participated": 0
   },
@@ -3834,7 +3834,7 @@
     "age": 31,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Emily Stefanski",
     "races_participated": 0
   },
@@ -3845,9 +3845,9 @@
     "age": 43,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Melissa Stellato",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Cassandra",
@@ -3856,7 +3856,7 @@
     "age": 30,
     "team": "Milford RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cassandra Steptoe",
     "races_participated": 1
   },
@@ -3867,7 +3867,7 @@
     "age": 41,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Eric Stevenson",
     "races_participated": 2
   },
@@ -3878,7 +3878,7 @@
     "age": 30,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Francois Stockart",
     "races_participated": 1
   },
@@ -3889,9 +3889,9 @@
     "age": 58,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brett Stoeffler",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Christopher",
@@ -3900,7 +3900,7 @@
     "age": 40,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christopher Stonier",
     "races_participated": 0
   },
@@ -3911,9 +3911,9 @@
     "age": 69,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brent Stratton",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Beverly",
@@ -3922,7 +3922,7 @@
     "age": 61,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Beverly Streit",
     "races_participated": 0
   },
@@ -3933,7 +3933,7 @@
     "age": 61,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Beverly K. Streit",
     "races_participated": 1
   },
@@ -3944,7 +3944,7 @@
     "age": 58,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lisa Strom",
     "races_participated": 0
   },
@@ -3955,9 +3955,9 @@
     "age": 30,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ryan Sullivan",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Edward",
@@ -3966,7 +3966,7 @@
     "age": 60,
     "team": "Manchester RC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Edward Sweeney",
     "races_participated": 2
   },
@@ -3977,9 +3977,9 @@
     "age": 30,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "James Sweney",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Fred",
@@ -3988,7 +3988,7 @@
     "age": 68,
     "team": "unaffiliated",
     "division": "Seniors",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Fred Szczesiul",
     "races_participated": 1
   },
@@ -3999,9 +3999,9 @@
     "age": 32,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Karol Szoch",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Tricky",
@@ -4010,7 +4010,7 @@
     "age": 45,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tricky Tanksley",
     "races_participated": 0
   },
@@ -4021,7 +4021,7 @@
     "age": 55,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tina Taylor",
     "races_participated": 0
   },
@@ -4032,7 +4032,7 @@
     "age": 89,
     "team": "Manchester RC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Terry Temple",
     "races_participated": 0
   },
@@ -4043,7 +4043,7 @@
     "age": 26,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Chris Testa",
     "races_participated": 2
   },
@@ -4054,7 +4054,7 @@
     "age": 36,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nancy Theinert",
     "races_participated": 0
   },
@@ -4065,7 +4065,7 @@
     "age": 41,
     "team": "Manchester RC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "William Theinert",
     "races_participated": 0
   },
@@ -4076,7 +4076,7 @@
     "age": 41,
     "team": "Sound Runner",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brendan Tierney",
     "races_participated": 0
   },
@@ -4087,7 +4087,7 @@
     "age": 54,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Trehern",
     "races_participated": 0
   },
@@ -4098,9 +4098,9 @@
     "age": 75,
     "team": "Milford RR",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Louis Trevisan",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Andrew",
@@ -4109,7 +4109,7 @@
     "age": 33,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Andrew Turnage",
     "races_participated": 0
   },
@@ -4120,9 +4120,9 @@
     "age": 32,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Steven Urgiles Noguera",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "PETER",
@@ -4131,7 +4131,7 @@
     "age": 82,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "PETER VOLKMAR",
     "races_participated": 0
   },
@@ -4142,9 +4142,9 @@
     "age": 35,
     "team": "Mohegan Striders",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Valentine",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Deborah",
@@ -4153,9 +4153,9 @@
     "age": 58,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Deborah Valin",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Kevin",
@@ -4164,7 +4164,7 @@
     "age": 57,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin Vallez",
     "races_participated": 0
   },
@@ -4175,7 +4175,7 @@
     "age": 51,
     "team": "Hartford TC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jen Van Hoof",
     "races_participated": 1
   },
@@ -4186,9 +4186,9 @@
     "age": 62,
     "team": "Sound Runner",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "William VanNieuwenhuyze",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Mario",
@@ -4197,9 +4197,9 @@
     "age": 46,
     "team": "Hartbeat TC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mario Vazquez",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Arianna",
@@ -4208,9 +4208,9 @@
     "age": 24,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Arianna Vessicchio",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Janet",
@@ -4219,9 +4219,9 @@
     "age": 78,
     "team": "Milford RR",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Janet Voelpert",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Jeffrey",
@@ -4230,7 +4230,7 @@
     "age": 62,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeffrey Vuono",
     "races_participated": 0
   },
@@ -4241,7 +4241,7 @@
     "age": 29,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brooke Waites",
     "races_participated": 0
   },
@@ -4252,9 +4252,9 @@
     "age": 61,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Jeff Walker",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Jeffrey",
@@ -4263,7 +4263,7 @@
     "age": 61,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeffrey Walker",
     "races_participated": 0
   },
@@ -4274,7 +4274,7 @@
     "age": 70,
     "team": "Hartford TC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tom Walsh",
     "races_participated": 1
   },
@@ -4285,7 +4285,7 @@
     "age": 36,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Adam Warren",
     "races_participated": 1
   },
@@ -4296,7 +4296,7 @@
     "age": 57,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mitsuko Washington",
     "races_participated": 0
   },
@@ -4307,9 +4307,9 @@
     "age": 57,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bartholomew Wasiolek",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Michael",
@@ -4318,9 +4318,9 @@
     "age": 35,
     "team": "Sound Runner",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Waterbury",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Kristin",
@@ -4329,7 +4329,7 @@
     "age": 34,
     "team": "New Haven RR",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kristin Waters",
     "races_participated": 0
   },
@@ -4340,9 +4340,9 @@
     "age": 45,
     "team": "Hartbeat TC",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Gregory Weaver",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Leigh",
@@ -4351,9 +4351,9 @@
     "age": 65,
     "team": "Sound Runner",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Leigh Webb",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Jeremy",
@@ -4362,9 +4362,9 @@
     "age": 45,
     "team": "Mohegan Striders",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeremy Weiss",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Don",
@@ -4373,7 +4373,7 @@
     "age": 72,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Don Weller",
     "races_participated": 0
   },
@@ -4384,7 +4384,7 @@
     "age": 30,
     "team": "Hartbeat TC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Amy Whetter",
     "races_participated": 1
   },
@@ -4395,9 +4395,9 @@
     "age": 67,
     "team": "Mohegan Striders",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brenda Whitman",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Ken",
@@ -4406,7 +4406,7 @@
     "age": 34,
     "team": "Manchester RC",
     "division": "Open",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ken Whitney",
     "races_participated": 1
   },
@@ -4417,7 +4417,7 @@
     "age": 56,
     "team": "Manchester RC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sarah Wiliarty",
     "races_participated": 0
   },
@@ -4428,9 +4428,9 @@
     "age": 50,
     "team": "Milford RR",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kirsten Wilkins",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Christina",
@@ -4439,7 +4439,7 @@
     "age": 46,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christina Williams",
     "races_participated": 2
   },
@@ -4450,7 +4450,7 @@
     "age": 45,
     "team": "Milford RR",
     "division": "Masters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dave Williams",
     "races_participated": 0
   },
@@ -4461,9 +4461,9 @@
     "age": 69,
     "team": "Milford RR",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Charles Winchell",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Christian",
@@ -4472,7 +4472,7 @@
     "age": 51,
     "team": "Hartbeat TC",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 05:03:07.372642",
+    "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Christian Winkley",
     "races_participated": 1
   },
@@ -4483,7 +4483,7 @@
     "age": 55,
     "team": "Mohegan Striders",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marcy Withington",
     "races_participated": 0
   },
@@ -4494,7 +4494,7 @@
     "age": 73,
     "team": "Manchester RC",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "William Yost",
     "races_participated": 0
   },
@@ -4505,9 +4505,9 @@
     "age": 65,
     "team": "Hartford TC",
     "division": "Seniors",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeffrey Zelek",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Mary",
@@ -4516,7 +4516,7 @@
     "age": 70,
     "team": "Mohegan Striders",
     "division": "Veteran",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mary Zorzanello",
     "races_participated": 0
   },
@@ -4527,7 +4527,7 @@
     "age": 52,
     "team": "Sound Runner",
     "division": "Grandmasters",
-    "created_at": "2026-06-05 04:57:23.167961",
+    "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "William Zucconi",
     "races_participated": 0
   }
