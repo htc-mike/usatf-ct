@@ -691,13 +691,13 @@
     "gender": "F",
     "rank": 10,
     "points": 1,
-    "runner": "Cassandra Steptoe",
-    "team": "Milford RR",
-    "age": 30,
-    "time": "19:05",
-    "time_in_millis": 1145000,
+    "runner": "Emma Cavanagh",
+    "team": "Hartbeat TC",
+    "age": 27,
+    "time": "19:03",
+    "time_in_millis": 1143000,
     "event_name": "99.1 PLR ShamRock & Roll 5k",
-    "pace": "6:08"
+    "pace": "6:07"
   },
   {
     "event_id": 2,

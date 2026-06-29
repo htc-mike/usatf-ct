@@ -43,8 +43,8 @@ team_place_points = {
 
 def main():
 
-    load_file = True
-    event_id = 5
+    load_file = False
+    event_id = None
     results_file = "branford.5.miler.csv"
 
     if load_file:
@@ -52,7 +52,6 @@ def main():
         df = data.get_results(event_id)
         if not df.empty:
             match_results(event_id, df) # return df_results
-        
     elif event_id:
         reprocess_event(event_id)
     else:
@@ -132,6 +131,14 @@ def match_results(event_id:int, df_results:pd.DataFrame):
         individual_points_df['event_id'] = event_id
         data.load_individual_points(individual_points_df)
 
+    # Remove Unaffiliated team from the results
+    df_match = df_match.loc[~df_match['team'].isin(['Unaffiliated', 'unaffiliated'])]
+    df_match = df_match.sort_values(
+        by=['time_in_millis', 'overall_race_rank'],
+        ascending=[True, True],
+    )
+    df_match = df_match.drop_duplicates(subset=['runner'], keep='first').reset_index(drop=True)
+
     points_by_team_list = []
     for division in usatf_divisions:
         for gender in ['M', 'F']:
@@ -180,6 +187,7 @@ def aggregate_team_place_points(top_match_df, points_map=team_place_points):
     return pts_df
 
 def get_top_results(df, top_n = 3):
+    df.to_csv(f'data/top.csv', index=False)
     #
     # Filter runners by top 3 for each club and gender
     #
@@ -192,8 +200,7 @@ def get_top_results(df, top_n = 3):
         .head(top_n)
         .reset_index(drop=True)
     )
-
-    # top_filtered_df.to_csv(f'{race}_top_filtered.csv')
+    top_filtered_df.to_csv(f'data/top_filtered.csv', index=False)
     
     #
     # Aggregate time and runners by club and gender
@@ -205,7 +212,7 @@ def get_top_results(df, top_n = 3):
         team_time_in_millis=('time_in_millis', 'sum'),
     )
     agg_df = agg_df.rename(columns={'runner': 'runnerCount', 'time_in_millis': 'team_time_in_millis'})
-    # agg_df.to_csv(f'{race}_top_agg.csv')
+    agg_df.to_csv(f'data/agg.csv', index=False)
 
     #
     # Filter our clubs that don't have the minimum 3 participants
@@ -213,12 +220,13 @@ def get_top_results(df, top_n = 3):
     agg_df = agg_df[agg_df['runnerCount'] == top_n]
     # agg_df.to_csv('data/202506/branford.5.miler.matches.top_3_df_group_count.csv')
     agg_df.drop('runnerCount', axis=1, inplace=True)
+    agg_df.to_csv(f'data/agg_filtered.csv', index=False)
 
     #
     # Rank results by gender
     #
     agg_df['rank'] = agg_df.groupby('gender')['team_time_in_millis'].rank().astype(int)
-
+    agg_df.to_csv(f'data/agg_ranked.csv', index=False)
     #
     # Format milliseconds for display as team time.
     #
@@ -235,8 +243,8 @@ def get_top_results(df, top_n = 3):
                 right_on=['team', 'gender'],
                 )
     top_match_df.sort_values(by=['gender','rank'], inplace=True, ascending=True)
-    # top_match_df.to_csv('data/202506/branford.5.miler.matches.top.2.csv', index=False)
-    
+    top_match_df.to_csv(f'data/top_match_df.csv', index=False)
+
     top_match_df = top_match_df[[
         'event_id',
         'rank',
@@ -252,7 +260,7 @@ def get_top_results(df, top_n = 3):
     ]]
     return top_match_df
 
-def get_match_results(df_members, df_results):
+def get_match_results(df_members, df_results) -> pd.DataFrame | None:
     # Columns from file:
     #     first_name,
     #     last_name,
@@ -329,23 +337,22 @@ def get_match_results(df_members, df_results):
         df_match = df_match.rename(columns={'place': 'overall_race_rank'})
         # df_match = df_match.rename(columns={'time_in_millis': 'timeInMillis'})
         df_match = df_match.rename(columns={'sex': 'gender'})
-        df_match = df_match[[
+        columns = [
             'overall_race_rank',
             'runner',
             'gender',
             'age',
             'team',
             'time',
-            'time_in_millis'
-        ]]
+            'time_in_millis',
+        ]
+        return df_match.loc[:, columns]
 
-        return df_match
-
-def load_member_file(member_file = f'usatf.ct.team.members.2026.official.csv'):
-    data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data")
-    members_path = os.path.join(data_dir, member_file)
-    df_members = pd.read_csv(members_path)
-    db.insert_df(df_members, 'usatf.members')        
+# def load_member_file(member_file = f'usatf.ct.team.members.2026.official.csv'):
+#     data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data")
+#     members_path = os.path.join(data_dir, member_file)
+#     df_members = pd.read_csv(members_path)
+#     db.insert_df(df_members, 'usatf.members')        
 
 def time_to_millis(row):
     return utils.time_to_millis(row['clock_time'])
