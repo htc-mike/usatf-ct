@@ -835,5 +835,374 @@
     "total_points": 8,
     "team_rank": 3,
     "event_name": "Spring Street Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "M",
+    "team": "unaffiliated",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Grandmasters",
+    "gender": "M",
+    "team": "Hartford TC",
+    "total_points": 6,
+    "team_rank": 5,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "F",
+    "team": "New Haven RR",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 6,
+    "team_rank": 5,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "M",
+    "team": "New Haven RR",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 6,
+    "team_rank": 5,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "M",
+    "team": "Hartford TC",
+    "total_points": 5,
+    "team_rank": 6,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Masters",
+    "gender": "M",
+    "team": "unaffiliated",
+    "total_points": 4,
+    "team_rank": 7,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "F",
+    "team": "Hartbeat TC",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "F",
+    "team": "New Haven RR",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 6,
+    "team_rank": 5,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 5,
+    "team_rank": 6,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "M",
+    "team": "New Haven RR",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 6,
+    "team_rank": 5,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Open",
+    "gender": "M",
+    "team": "unaffiliated",
+    "total_points": 5,
+    "team_rank": 6,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 11,
+    "team_rank": 1,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 9,
+    "team_rank": 2,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 8,
+    "team_rank": 3,
+    "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 5,
+    "division": "Seniors",
+    "gender": "M",
+    "team": "Hartford TC",
+    "total_points": 7,
+    "team_rank": 4,
+    "event_name": "Branford 5 Mile"
   }
 ]

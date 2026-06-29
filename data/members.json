@@ -44,6 +44,17 @@
     "races_participated": 1
   },
   {
+    "first_name": "Samuel",
+    "last_name": "Alexander",
+    "sex": "M",
+    "age": 36,
+    "team": "Mohegan Striders",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Samuel Alexander",
+    "races_participated": 1
+  },
+  {
     "first_name": "Igor",
     "last_name": "Aliczi",
     "sex": "M",
@@ -152,6 +163,28 @@
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Max Aronow",
     "races_participated": 2
+  },
+  {
+    "first_name": "Alec",
+    "last_name": "Auerbach",
+    "sex": "M",
+    "age": 12,
+    "team": "New Haven Age Group TC",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Alec Auerbach",
+    "races_participated": 1
+  },
+  {
+    "first_name": "Jonas",
+    "last_name": "Auerbach",
+    "sex": "M",
+    "age": 10,
+    "team": "New Haven Age Group TC",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Jonas Auerbach",
+    "races_participated": 1
   },
   {
     "first_name": "Dave",
@@ -625,6 +658,17 @@
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Robert Castronova",
     "races_participated": 0
+  },
+  {
+    "first_name": "Emma",
+    "last_name": "Cavanagh",
+    "sex": "F",
+    "age": 27,
+    "team": "Hartbeat TC",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Emma Cavanagh",
+    "races_participated": 2
   },
   {
     "first_name": "Juan",
@@ -1111,6 +1155,17 @@
     "races_participated": 0
   },
   {
+    "first_name": "Gabriel",
+    "last_name": "Diamante",
+    "sex": "M",
+    "age": 19,
+    "team": "unaffiliated",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Gabriel Diamante",
+    "races_participated": 1
+  },
+  {
     "first_name": "Stephen",
     "last_name": "Dinsmore",
     "sex": "M",
@@ -1397,6 +1452,17 @@
     "races_participated": 2
   },
   {
+    "first_name": "Jillian",
+    "last_name": "Forgue",
+    "sex": "F",
+    "age": 40,
+    "team": "unaffiliated",
+    "division": "Masters",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Jillian Forgue",
+    "races_participated": 1
+  },
+  {
     "first_name": "Louis",
     "last_name": "Free",
     "sex": "M",
@@ -1483,6 +1549,17 @@
     "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Tom Geer",
     "races_participated": 3
+  },
+  {
+    "first_name": "Abby",
+    "last_name": "Gerbo",
+    "sex": "F",
+    "age": 32,
+    "team": "Hartbeat TC",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Abby Gerbo",
+    "races_participated": 1
   },
   {
     "first_name": "Lorraine",
@@ -1595,6 +1672,17 @@
     "races_participated": 0
   },
   {
+    "first_name": "Adam",
+    "last_name": "Gootnick",
+    "sex": "M",
+    "age": 40,
+    "team": "Manchester RC",
+    "division": "Masters",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Adam Gootnick",
+    "races_participated": 1
+  },
+  {
     "first_name": "Timothy",
     "last_name": "Goric",
     "sex": "M",
@@ -1604,6 +1692,17 @@
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Timothy Goric",
     "races_participated": 0
+  },
+  {
+    "first_name": "Bruce",
+    "last_name": "Goulart",
+    "sex": "M",
+    "age": 76,
+    "team": "unaffiliated",
+    "division": "Veteran",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Bruce Goulart",
+    "races_participated": 1
   },
   {
     "first_name": "Brian",
@@ -1991,6 +2090,17 @@
     "races_participated": 2
   },
   {
+    "first_name": "Tima",
+    "last_name": "Karginov",
+    "sex": "M",
+    "age": 30,
+    "team": "Hartbeat TC",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Tima Karginov",
+    "races_participated": 1
+  },
+  {
     "first_name": "Alexandra",
     "last_name": "Kenealy",
     "sex": "F",
@@ -2000,6 +2110,28 @@
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alexandra Kenealy",
     "races_participated": 0
+  },
+  {
+    "first_name": "Joseph",
+    "last_name": "Kennan",
+    "sex": "M",
+    "age": 12,
+    "team": "Danbury Hatters",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Joseph Kennan",
+    "races_participated": 1
+  },
+  {
+    "first_name": "Tyler",
+    "last_name": "Kennan",
+    "sex": "M",
+    "age": 10,
+    "team": "Danbury Hatters",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Tyler Kennan",
+    "races_participated": 1
   },
   {
     "first_name": "Dani",
@@ -2033,6 +2165,17 @@
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Charlotte Kenney",
     "races_participated": 2
+  },
+  {
+    "first_name": "Cody",
+    "last_name": "Kersteter",
+    "sex": "M",
+    "age": 25,
+    "team": "Mohegan Striders",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Cody Kersteter",
+    "races_participated": 1
   },
   {
     "first_name": "Bob",
@@ -2088,6 +2231,17 @@
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Courtney Knapp",
     "races_participated": 0
+  },
+  {
+    "first_name": "Chaz",
+    "last_name": "Koch",
+    "sex": "M",
+    "age": 43,
+    "team": "Sound Runner",
+    "division": "Masters",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Chaz Koch",
+    "races_participated": 1
   },
   {
     "first_name": "Cathi",
@@ -2178,6 +2332,17 @@
     "races_participated": 1
   },
   {
+    "first_name": "Dan",
+    "last_name": "Kupper",
+    "sex": "M",
+    "age": 39,
+    "team": "Manchester RC",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Dan Kupper",
+    "races_participated": 4
+  },
+  {
     "first_name": "EMBERLEIGH",
     "last_name": "LUCE",
     "sex": "F",
@@ -2230,6 +2395,17 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shahan Leach",
+    "races_participated": 1
+  },
+  {
+    "first_name": "Manoel",
+    "last_name": "Leal",
+    "sex": "M",
+    "age": 69,
+    "team": "unaffiliated",
+    "division": "Seniors",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Manoel Leal",
     "races_participated": 1
   },
   {
@@ -2948,6 +3124,17 @@
     "races_participated": 2
   },
   {
+    "first_name": "Tommy",
+    "last_name": "Ogorman",
+    "sex": "M",
+    "age": 27,
+    "team": "Hartbeat TC",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Tommy Ogorman",
+    "races_participated": 0
+  },
+  {
     "first_name": "Nancy",
     "last_name": "Olsen",
     "sex": "F",
@@ -3520,6 +3707,17 @@
     "races_participated": 3
   },
   {
+    "first_name": "Alex",
+    "last_name": "Rosenthal",
+    "sex": "M",
+    "age": 44,
+    "team": "New Haven RR",
+    "division": "Masters",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Alex Rosenthal",
+    "races_participated": 1
+  },
+  {
     "first_name": "Caitlin",
     "last_name": "Roston",
     "sex": "F",
@@ -3949,6 +4147,17 @@
     "races_participated": 0
   },
   {
+    "first_name": "Jay",
+    "last_name": "Sullivan",
+    "sex": "M",
+    "age": 28,
+    "team": "unaffiliated",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Jay Sullivan",
+    "races_participated": 1
+  },
+  {
     "first_name": "Ryan",
     "last_name": "Sullivan",
     "sex": "M",
@@ -4244,6 +4453,17 @@
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brooke Waites",
     "races_participated": 0
+  },
+  {
+    "first_name": "Anna",
+    "last_name": "Walewski",
+    "sex": "F",
+    "age": 26,
+    "team": "unaffiliated",
+    "division": "Open",
+    "created_at": "2026-06-28T17:43:04.305684",
+    "full_name": "Anna Walewski",
+    "races_participated": 1
   },
   {
     "first_name": "Jeff",
