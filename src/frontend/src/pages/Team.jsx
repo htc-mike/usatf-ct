@@ -101,10 +101,26 @@ function TeamStandingsSection({ title, subtitle, loading, error, data, onReload 
   )
 }
 
-function Section({ title, subtitle, loading, error, data, columns, filterDefs, onReload, limit = null }) {
+function multiSort(rows, keys) {
+  return [...rows].sort((a, b) => {
+    for (const { key, dir } of keys) {
+      const av = a[key], bv = b[key]
+      const aNum = typeof av === 'number', bNum = typeof bv === 'number'
+      const cmp = (aNum && bNum) ? av - bv : String(av ?? '').localeCompare(String(bv ?? ''))
+      if (cmp !== 0) return dir === 'desc' ? -cmp : cmp
+    }
+    return 0
+  })
+}
+
+function Section({ title, subtitle, loading, error, data, columns, filterDefs, onReload, limit = null, preSortKeys = null }) {
   const [filters, setFilters] = useState({})
   const setFilter = (key, value) => setFilters(f => ({ ...f, [key]: value }))
   const filtered = useFiltered(data, filters)
+  const display = useMemo(
+    () => preSortKeys ? multiSort(filtered, preSortKeys) : filtered,
+    [filtered, preSortKeys]
+  )
 
   return (
     <section className="mb-10">
@@ -124,7 +140,7 @@ function Section({ title, subtitle, loading, error, data, columns, filterDefs, o
             onChange={setFilter}
             data={data}
           />
-          <DataGrid data={filtered} columns={columns} rowCount={data.length} limit={limit} />
+          <DataGrid data={display} columns={columns} rowCount={data.length} limit={limit} />
         </>
       )}
     </section>
@@ -165,6 +181,11 @@ export default function Team() {
         filterDefs={TEAM_INDIV_FILTERS}
         onReload={ti.reload}
         limit={10}
+        preSortKeys={[
+          { key: 'rank',           dir: 'asc' },
+          { key: 'team',           dir: 'asc' },
+          { key: 'time_in_millis', dir: 'asc' },
+        ]}
       />
     </div>
   )

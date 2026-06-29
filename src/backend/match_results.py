@@ -43,12 +43,16 @@ team_place_points = {
 
 def main():
 
-    load_file = False
-    event_id = None
-    results_file = "spring.street.mile.2026.csv"
+    load_file = True
+    event_id = 5
+    results_file = "branford.5.miler.csv"
 
     if load_file:
         load_file_match_results(event_id, results_file)
+        df = data.get_results(event_id)
+        if not df.empty:
+            match_results(event_id, df) # return df_results
+        
     elif event_id:
         reprocess_event(event_id)
     else:
@@ -72,16 +76,19 @@ def reprocess_all_events():
 def load_file_match_results(event_id:int, results_file:str):
     ## first_name,last_name,name,place,sex,age,time,time_in_millis
 
+    data.delete_results(event_id)
     data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data")
     events_path = os.path.join(data_dir, results_file)
     df_results = pd.read_csv(events_path)
-    data.load_results(event_id,df_results)
+    data.load_results(event_id, df_results)
+
 
 def match_results(event_id:int, df_results:pd.DataFrame):
     event = data.get_event(event_id)
     dist_mi = event['dist_mi'].iloc[0]
     event_name = event['name'].iloc[0]
     print(f"Processing Event: {event_name}, Distance: {dist_mi}")
+    data.delete_event_tables(event_id)
 
     df_members = data.get_members()
     df_match = get_match_results(df_members, df_results)

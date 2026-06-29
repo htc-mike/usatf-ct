@@ -19,7 +19,7 @@ import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-import data_gsht as ds  # <-- swap this import to change data source
+import data_db as ds  # <-- swap this import to change data source
 
 app = FastAPI(title="USATF-CT Grand Prix API", version="1.0.0")
 
@@ -149,12 +149,17 @@ def _add_pace(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _to_records(df: pd.DataFrame) -> list:
-    """Serialize DataFrame rows: NaN → '', whole-number floats → int."""
+    """Serialize DataFrame rows: NaN → '', whole-number floats → int, dates → ISO str."""
+    import datetime
     records = df.fillna("").to_dict("records")
     for row in records:
         for k, v in row.items():
             if isinstance(v, float) and v.is_integer():
                 row[k] = int(v)
+            elif isinstance(v, (datetime.date, datetime.datetime)):
+                row[k] = v.isoformat()
+            elif hasattr(v, 'isoformat'):  # pd.Timestamp and similar
+                row[k] = v.isoformat()
     return records
 
 

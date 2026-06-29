@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { Link } from 'react-router-dom'
 import { ChevronUp, ChevronDown, ChevronsUpDown, ChevronDown as ExpandIcon } from 'lucide-react'
 import { EmptyState } from './LoadingState'
 
@@ -44,7 +45,7 @@ function GenderPill({ value }) {
  *
  * @param {'rank'|'division'|'gender'|'time'|'points'|'text'} type
  */
-function Cell({ type, value }) {
+function Cell({ type, value, href }) {
   if (value === '' || value === null || value === undefined) {
     return <span className="text-gray-300">—</span>
   }
@@ -54,6 +55,12 @@ function Cell({ type, value }) {
     case 'gender':   return <GenderPill value={value} />
     case 'time':     return <span className="time-cell">{value}</span>
     case 'points':   return <span className="font-mono font-semibold text-brand-blue">{value}</span>
+    case 'link':       return href
+      ? <a href={href} target="_blank" rel="noreferrer" className="text-brand-blue hover:underline">{String(value)}</a>
+      : <span>{String(value)}</span>
+    case 'routerLink': return href
+      ? <Link to={href} className="text-brand-blue hover:underline">{String(value)}</Link>
+      : <span className="text-gray-400">{String(value)}</span>
     default:         return <span>{String(value)}</span>
   }
 }
@@ -141,7 +148,7 @@ export default function DataGrid({ data = [], columns = [], rowCount, limit = nu
                   <th
                     key={col.key}
                     onClick={() => handleSort(col.key)}
-                    className="cursor-pointer select-none hover:bg-gray-100 transition-colors"
+                    className="cursor-pointer select-none hover:opacity-75 transition-opacity"
                   >
                     <span className="flex items-center gap-1">
                       {col.label}
@@ -156,7 +163,7 @@ export default function DataGrid({ data = [], columns = [], rowCount, limit = nu
                 <tr key={i}>
                   {columns.map(col => (
                     <td key={col.key}>
-                      <Cell type={col.type ?? 'text'} value={row[col.key]} />
+                      <Cell type={col.type ?? 'text'} value={row[col.key]} href={col.hrefKey ? row[col.hrefKey] : undefined} />
                     </td>
                   ))}
                 </tr>

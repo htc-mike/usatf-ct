@@ -1,10 +1,19 @@
 import { Link } from 'react-router-dom'
-import { Users, User, Flag, ChevronRight, Trophy, Calendar, CheckCircle2, Clock } from 'lucide-react'
+import { Users, User, Flag, ChevronRight, Trophy } from 'lucide-react'
 import { useData } from '../hooks/useData'
 import { fetchEvents, fetchTeamTotals, fetchIndividualSeasonTotals } from '../services/api'
 import { Spinner, ErrorState } from '../components/LoadingState'
+import DataGrid from '../components/DataGrid'
 
 const LOGO_URL = `${import.meta.env.BASE_URL}usatf-ct-logo.png`
+
+const EVENT_COLUMNS = [
+  { key: 'date',     label: 'Date' },
+  { key: 'name',     label: 'Event',    type: 'link', hrefKey: 'url' },
+  { key: 'location', label: 'Location' },
+  { key: 'dist_mi',  label: 'Distance' },
+  { key: 'status',   label: 'Status', type: 'routerLink', hrefKey: 'results_path' },
+]
 
 const sections = [
   {
@@ -234,12 +243,14 @@ export default function Home() {
           <h2 className="section-header text-xl mb-4">Events</h2>
           {eventsLoading && <Spinner message="Loading events…" />}
           {eventsError && <ErrorState message={eventsError} />}
-          {!eventsLoading && !eventsError && events.length === 0 && (
-            <p className="text-sm text-gray-400">No events found.</p>
+          {!eventsLoading && !eventsError && (
+            <DataGrid
+              data={[...events]
+                .sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''))
+                .map(ev => ({ ...ev, dist_mi: ev.dist_mi ? `${ev.dist_mi} mi` : '', status: ev.has_results ? 'Results' : 'Pending', results_path: ev.has_results ? `/results?event=${encodeURIComponent(ev.name)}` : null }))}
+              columns={EVENT_COLUMNS}
+            />
           )}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8">
-            {events.map((ev, i) => <EventRow key={i} event={ev} />)}
-          </div>
         </div>
 
       </div>
