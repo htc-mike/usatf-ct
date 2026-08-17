@@ -1,7 +1,8 @@
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { Users, User, Flag, ChevronRight, Trophy } from 'lucide-react'
 import { useData } from '../hooks/useData'
-import { fetchEvents, fetchTeamTotals, fetchIndividualSeasonTotals } from '../services/api'
+import { fetchEvents, fetchTeamTotals, fetchTeamEventDivisionGenderTotals, fetchIndividualPoints } from '../services/api'
 import { Spinner, ErrorState } from '../components/LoadingState'
 import DataGrid from '../components/DataGrid'
 
@@ -111,10 +112,11 @@ function EventRow({ event }) {
 }
 
 function RankMark({ rank }) {
-  if (rank === 1) return <span className="rank-badge rank-1">{rank}</span>
-  if (rank === 2) return <span className="rank-badge rank-2">{rank}</span>
-  if (rank === 3) return <span className="rank-badge rank-3">{rank}</span>
-  return <span className="font-mono text-sm font-medium text-gray-500 w-7 text-center inline-block">{rank}</span>
+  const n = Number(rank)
+  if (n === 1) return <span className="rank-badge rank-1">{n}</span>
+  if (n === 2) return <span className="rank-badge rank-2">{n}</span>
+  if (n === 3) return <span className="rank-badge rank-3">{n}</span>
+  return <span className="font-mono text-sm font-medium text-gray-500 w-7 text-center inline-block">{Number.isFinite(n) ? n : rank}</span>
 }
 
 function LeaderRow({ rank, team, points }) {
@@ -134,7 +136,7 @@ function IndividualLeaderRow({ index, row }) {
       <RankMark rank={rank} />
       <div className="flex-1 min-w-0">
         <p className="text-sm font-medium text-gray-800 truncate">{row.runner}</p>
-        <p className="text-xs text-gray-400">{row.division}&nbsp;·&nbsp;{row.team}</p>
+        <p className="text-xs text-gray-400">{row.team}</p>
       </div>
       <div className="text-right shrink-0">
         <span className="font-mono text-sm font-semibold text-brand-blue block">{row.total_points} pts</span>
@@ -144,13 +146,69 @@ function IndividualLeaderRow({ index, row }) {
   )
 }
 
+function LeaderBoard({ title, loading, rows, renderRow }) {
+  return (
+    <div className="card">
+      <h2 className="section-header text-lg mb-4">{title}</h2>
+      {loading && <Spinner message="Loading…" />}
+      {!loading && rows.length === 0 && (
+        <p className="text-sm text-gray-400">No standings data yet.</p>
+      )}
+      {!loading && rows.slice(0, 10).map(renderRow)}
+    </div>
+  )
+}
+
+function aggregateTeamByGender(rows, gender) {
+  const map = {}
+  for (const row of rows) {
+    if (row.gender !== gender) continue
+    const team = row.team
+    if (!map[team]) map[team] = { team, total_points: 0 }
+    map[team].total_points += Number(row.total_points) || 0
+  }
+  return Object.values(map).sort(
+    (a, b) => b.total_points - a.total_points,
+  )
+}
+
+function aggregateOpenIndividuals(points, gender) {
+  const map = {}
+  for (const row of points) {
+    if (row.gender !== gender) continue
+    if (String(row.division).toLowerCase() !== 'open') continue
+    const key = row.runner
+    if (!map[key]) {
+      map[key] = {
+        runner: row.runner,
+        team: row.team,
+        total_points: 0,
+        events: new Set(),
+      }
+    }
+    map[key].total_points += Number(row.points) || 0
+    if (row.event_id != null) map[key].events.add(row.event_id)
+    else if (row.event_name) map[key].events.add(row.event_name)
+    if (row.team) map[key].team = row.team
+  }
+  return Object.values(map)
+    .map(({ events, ...row }) => ({ ...row, events: events.size }))
+    .sort((a, b) => b.total_points - a.total_points)
+}
+
 export default function Home() {
   const { data: events, loading: eventsLoading, error: eventsError } = useData(fetchEvents)
   const { data: totals, loading: totalsLoading } = useData(fetchTeamTotals)
-  const { data: indTotals, loading: indLoading } = useData(fetchIndividualSeasonTotals)
+  const { data: teamDivTotals, loading: teamDivLoading } = useData(fetchTeamEventDivisionGenderTotals)
+  const { data: indPoints, loading: indLoading } = useData(fetchIndividualPoints)
 
-  const menTotals = indTotals.filter(r => r.gender === 'M')
-  const womenTotals = indTotals.filter(r => r.gender === 'F')
+  const teamLeaders = useMemo(() => [...totals].sort(
+    (a, b) => (Number(b.total_points) || 0) - (Number(a.total_points) || 0),
+  ), [totals])
+  const teamMenLeaders = useMemo(() => aggregateTeamByGender(teamDivTotals, 'M'), [teamDivTotals])
+  const teamWomenLeaders = useMemo(() => aggregateTeamByGender(teamDivTotals, 'F'), [teamDivTotals])
+  const menOpenTotals = useMemo(() => aggregateOpenIndividuals(indPoints, 'M'), [indPoints])
+  const womenOpenTotals = useMemo(() => aggregateOpenIndividuals(indPoints, 'F'), [indPoints])
 
   return (
     <div>
@@ -197,45 +255,52 @@ export default function Home() {
           {sections.map(s => <SectionCard key={s.to} {...s} />)}
         </div>
 
-        {/* Season leaders — 3 columns */}
+        {/* Team season leaders */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-
-          {/* Team */}
-          <div className="card">
-            <h2 className="section-header text-lg mb-4">Team</h2>
-            {totalsLoading && <Spinner message="Loading…" />}
-            {!totalsLoading && totals.length === 0 && (
-              <p className="text-sm text-gray-400">No standings data yet.</p>
+          <LeaderBoard
+            title="Team — Men & Women"
+            loading={totalsLoading}
+            rows={teamLeaders}
+            renderRow={(row, i) => (
+              <LeaderRow key={row.team ?? i} rank={i + 1} team={row.team} points={Number(row.total_points) || 0} />
             )}
-            {totals.slice(0, 10).map((row, i) => (
-              <LeaderRow key={i} rank={row.team_rank ?? i + 1} team={row.team} points={row.total_points} />
-            ))}
-          </div>
-
-          {/* Individual Men */}
-          <div className="card">
-            <h2 className="section-header text-lg mb-4">Individual — Men</h2>
-            {indLoading && <Spinner message="Loading…" />}
-            {!indLoading && menTotals.length === 0 && (
-              <p className="text-sm text-gray-400">No standings data yet.</p>
+          />
+          <LeaderBoard
+            title="Team — Men"
+            loading={teamDivLoading}
+            rows={teamMenLeaders}
+            renderRow={(row, i) => (
+              <LeaderRow key={row.team ?? i} rank={i + 1} team={row.team} points={Number(row.total_points) || 0} />
             )}
-            {menTotals.slice(0, 10).map((row, i) => (
-              <IndividualLeaderRow key={i} index={i} row={row} />
-            ))}
-          </div>
-
-          {/* Individual Women */}
-          <div className="card">
-            <h2 className="section-header text-lg mb-4">Individual — Women</h2>
-            {indLoading && <Spinner message="Loading…" />}
-            {!indLoading && womenTotals.length === 0 && (
-              <p className="text-sm text-gray-400">No standings data yet.</p>
+          />
+          <LeaderBoard
+            title="Team — Women"
+            loading={teamDivLoading}
+            rows={teamWomenLeaders}
+            renderRow={(row, i) => (
+              <LeaderRow key={row.team ?? i} rank={i + 1} team={row.team} points={Number(row.total_points) || 0} />
             )}
-            {womenTotals.slice(0, 10).map((row, i) => (
-              <IndividualLeaderRow key={i} index={i} row={row} />
-            ))}
-          </div>
+          />
+        </div>
 
+        {/* Individual season leaders — Open */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+          <LeaderBoard
+            title="Individual — Men — Open"
+            loading={indLoading}
+            rows={menOpenTotals}
+            renderRow={(row, i) => (
+              <IndividualLeaderRow key={row.runner ?? i} index={i} row={row} />
+            )}
+          />
+          <LeaderBoard
+            title="Individual — Women — Open"
+            loading={indLoading}
+            rows={womenOpenTotals}
+            renderRow={(row, i) => (
+              <IndividualLeaderRow key={row.runner ?? i} index={i} row={row} />
+            )}
+          />
         </div>
 
         {/* Events — full width */}
