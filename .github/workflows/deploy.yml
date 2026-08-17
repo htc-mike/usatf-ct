@@ -30,6 +30,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: src/frontend
+        env:
+          VITE_GIT_SHA: ${{ github.sha }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

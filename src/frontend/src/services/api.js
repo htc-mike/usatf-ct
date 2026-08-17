@@ -8,12 +8,13 @@
 
 const API_BASE = import.meta.env.VITE_API_BASE ?? '/api'
 const STATIC   = import.meta.env.VITE_STATIC === 'true'
+const CACHE_BUST = import.meta.env.VITE_GIT_SHA
 
 async function fetchJSON(path) {
   const url = STATIC
-    ? `${API_BASE}${path.split('?')[0]}.json`
+    ? `${API_BASE}${path.split('?')[0]}.json${CACHE_BUST ? `?v=${CACHE_BUST.slice(0, 7)}` : ''}`
     : `${API_BASE}${path}`
-  const res = await fetch(url)
+  const res = await fetch(url, STATIC ? { cache: 'no-store' } : undefined)
   if (!res.ok) {
     const detail = await res.text().catch(() => res.statusText)
     throw new Error(`API ${res.status}: ${detail}`)
