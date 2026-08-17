@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { useData } from '../hooks/useData'
-import { fetchTeamIndividual, fetchTeamEventDivisionGenderTotals } from '../services/api'
+import { fetchTeamIndividual, fetchTeamEventDivisionGenderTotals, fetchTeamTotals } from '../services/api'
 import FilterBar from '../components/FilterBar'
 import DataGrid from '../components/DataGrid'
 import { Spinner, ErrorState } from '../components/LoadingState'
@@ -42,16 +42,27 @@ function useFiltered(data, filters) {
   }, [data, filters])
 }
 
+function rankByPoints(rows) {
+  return [...rows]
+    .map(r => ({ ...r, total_points: Number(r.total_points) || 0 }))
+    .sort((a, b) => b.total_points - a.total_points)
+    .map((r, i) => ({ ...r, team_rank: i + 1 }))
+}
+
 /**
- * Team Standings — aggregates filtered rows by team, sums points, re-ranks.
+ * Team Standings — season totals by default; re-aggregates when filters are set.
  */
-function TeamStandingsSection({ title, subtitle, loading, error, data, onReload }) {
+function TeamStandingsSection({ title, subtitle, loading, error, data, seasonTotals = [], onReload }) {
   const [filters, setFilters] = useState({})
   const setFilter = (key, value) => setFilters(f => ({ ...f, [key]: value }))
 
+  const hasFilter = Object.values(filters).some(Boolean)
   const filteredRaw = useFiltered(data, filters)
 
   const aggregated = useMemo(() => {
+    if (!hasFilter) {
+      return rankByPoints(seasonTotals)
+    }
     const map = {}
     for (const row of filteredRaw) {
       const t = row.team
@@ -61,10 +72,8 @@ function TeamStandingsSection({ title, subtitle, loading, error, data, onReload 
       if (filters.gender)     map[t].gender      = row.gender
       if (filters.event_name) map[t].event_name  = row.event_name
     }
-    const rows = Object.values(map).sort((a, b) => b.total_points - a.total_points)
-    rows.forEach((r, i) => { r.team_rank = i + 1 })
-    return rows
-  }, [filteredRaw, filters])
+    return rankByPoints(Object.values(map))
+  }, [filteredRaw, filters, hasFilter, seasonTotals])
 
   const columns = useMemo(() => {
     const cols = [
@@ -94,19 +103,39 @@ function TeamStandingsSection({ title, subtitle, loading, error, data, onReload 
             onChange={setFilter}
             data={data}
           />
-          <DataGrid data={aggregated} columns={columns} rowCount={aggregated.length} />
+          <DataGrid
+            data={aggregated}
+            columns={columns}
+            rowCount={aggregated.length}
+            defaultSortKey="total_points"
+            defaultSortDir="desc"
+          />
         </>
       )}
     </section>
   )
 }
 
+function numericValue(v) {
+  if (typeof v === 'number' && Number.isFinite(v)) return v
+  if (typeof v === 'string') {
+    const t = v.trim()
+    if (t === '') return null
+    const n = Number(t)
+    return Number.isFinite(n) ? n : null
+  }
+  return null
+}
+
 function multiSort(rows, keys) {
   return [...rows].sort((a, b) => {
     for (const { key, dir } of keys) {
       const av = a[key], bv = b[key]
-      const aNum = typeof av === 'number', bNum = typeof bv === 'number'
-      const cmp = (aNum && bNum) ? av - bv : String(av ?? '').localeCompare(String(bv ?? ''))
+      const aNum = numericValue(av)
+      const bNum = numericValue(bv)
+      const cmp = (aNum !== null && bNum !== null)
+        ? aNum - bNum
+        : String(av ?? '').localeCompare(String(bv ?? ''), undefined, { numeric: true })
       if (cmp !== 0) return dir === 'desc' ? -cmp : cmp
     }
     return 0
@@ -150,6 +179,7 @@ function Section({ title, subtitle, loading, error, data, columns, filterDefs, o
 export default function Team() {
   const ti  = useData(fetchTeamIndividual)
   const tot = useData(fetchTeamEventDivisionGenderTotals)
+  const season = useData(fetchTeamTotals)
 
   return (
     <div className="page-container">
@@ -165,10 +195,11 @@ export default function Team() {
       <TeamStandingsSection
         title="Team Points"
         subtitle="Total points and rank per team. Use filters to narrow by event, division, or gender."
-        loading={tot.loading}
-        error={tot.error}
+        loading={tot.loading || season.loading}
+        error={tot.error || season.error}
         data={tot.data}
-        onReload={tot.reload}
+        seasonTotals={season.data}
+        onReload={() => { tot.reload(); season.reload() }}
       />
 
       <Section

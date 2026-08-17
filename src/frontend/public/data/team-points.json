@@ -1375,5 +1375,311 @@
     "team": "Mohegan Striders",
     "team_points": 6,
     "event_name": "Branford 5 Mile"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "F",
+    "rank": 1,
+    "team": "Sound Runner",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "F",
+    "rank": 2,
+    "team": "Mohegan Striders",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "F",
+    "rank": 3,
+    "team": "Manchester RC",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "F",
+    "rank": 4,
+    "team": "Milford RR",
+    "team_points": 7,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "M",
+    "rank": 1,
+    "team": "Manchester RC",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "M",
+    "rank": 2,
+    "team": "Mohegan Striders",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "M",
+    "rank": 3,
+    "team": "Sound Runner",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Grandmasters",
+    "gender": "M",
+    "rank": 4,
+    "team": "Hartford TC",
+    "team_points": 7,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "F",
+    "rank": 1,
+    "team": "Manchester RC",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "F",
+    "rank": 2,
+    "team": "Mohegan Striders",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "F",
+    "rank": 3,
+    "team": "Sound Runner",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "F",
+    "rank": 4,
+    "team": "Milford RR",
+    "team_points": 7,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "M",
+    "rank": 1,
+    "team": "Hartbeat TC",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "M",
+    "rank": 2,
+    "team": "Manchester RC",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "M",
+    "rank": 3,
+    "team": "Mohegan Striders",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "M",
+    "rank": 4,
+    "team": "Sound Runner",
+    "team_points": 7,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Masters",
+    "gender": "M",
+    "rank": 5,
+    "team": "Hartford TC",
+    "team_points": 6,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "F",
+    "rank": 1,
+    "team": "New Haven RR",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "F",
+    "rank": 2,
+    "team": "Manchester RC",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "F",
+    "rank": 3,
+    "team": "Mohegan Striders",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "F",
+    "rank": 4,
+    "team": "Sound Runner",
+    "team_points": 7,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "F",
+    "rank": 5,
+    "team": "Milford RR",
+    "team_points": 6,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "M",
+    "rank": 1,
+    "team": "Hartbeat TC",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "M",
+    "rank": 2,
+    "team": "Manchester RC",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "M",
+    "rank": 3,
+    "team": "New Haven RR",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "M",
+    "rank": 4,
+    "team": "Mohegan Striders",
+    "team_points": 7,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "M",
+    "rank": 5,
+    "team": "Sound Runner",
+    "team_points": 6,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Open",
+    "gender": "M",
+    "rank": 6,
+    "team": "Hartford TC",
+    "team_points": 5,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Seniors",
+    "gender": "F",
+    "rank": 1,
+    "team": "Mohegan Striders",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Seniors",
+    "gender": "F",
+    "rank": 2,
+    "team": "Manchester RC",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Seniors",
+    "gender": "F",
+    "rank": 3,
+    "team": "Milford RR",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Seniors",
+    "gender": "M",
+    "rank": 1,
+    "team": "Manchester RC",
+    "team_points": 11,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Seniors",
+    "gender": "M",
+    "rank": 2,
+    "team": "Mohegan Striders",
+    "team_points": 9,
+    "event_name": "Mohegan Striders 4-Miler"
+  },
+  {
+    "event_id": 6,
+    "division": "Seniors",
+    "gender": "M",
+    "rank": 3,
+    "team": "Hartford TC",
+    "team_points": 8,
+    "event_name": "Mohegan Striders 4-Miler"
   }
 ]

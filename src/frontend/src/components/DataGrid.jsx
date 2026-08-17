@@ -8,10 +8,10 @@ import { EmptyState } from './LoadingState'
  */
 function RankBadge({ value }) {
   const n = Number(value)
-  if (n === 1) return <span className="rank-badge rank-1">{value}</span>
-  if (n === 2) return <span className="rank-badge rank-2">{value}</span>
-  if (n === 3) return <span className="rank-badge rank-3">{value}</span>
-  return <span className="font-mono text-sm font-medium text-gray-600">{value}</span>
+  if (n === 1) return <span className="rank-badge rank-1">{n}</span>
+  if (n === 2) return <span className="rank-badge rank-2">{n}</span>
+  if (n === 3) return <span className="rank-badge rank-3">{n}</span>
+  return <span className="font-mono text-sm font-medium text-gray-600">{Number.isFinite(n) ? n : value}</span>
 }
 
 /**
@@ -54,7 +54,14 @@ function Cell({ type, value, href }) {
     case 'division': return <DivisionPill value={value} />
     case 'gender':   return <GenderPill value={value} />
     case 'time':     return <span className="time-cell">{value}</span>
-    case 'points':   return <span className="font-mono font-semibold text-brand-blue">{value}</span>
+    case 'points': {
+      const n = Number(value)
+      return (
+        <span className="font-mono font-semibold text-brand-blue">
+          {Number.isFinite(n) ? n : String(value)}
+        </span>
+      )
+    }
     case 'link':       return href
       ? <a href={href} target="_blank" rel="noreferrer" className="text-brand-blue hover:underline">{String(value)}</a>
       : <span>{String(value)}</span>
@@ -65,8 +72,25 @@ function Cell({ type, value, href }) {
   }
 }
 
-function sortRows(rows, key, dir) {
+const NUMERIC_TYPES = new Set(['points', 'rank'])
+const DESC_FIRST_TYPES = new Set(['points'])
+
+/** Parse a cell value as a number when it is numeric or a numeric string. */
+function numericValue(v) {
+  if (typeof v === 'number' && Number.isFinite(v)) return v
+  if (typeof v === 'string') {
+    const t = v.trim()
+    if (t === '') return null
+    const n = Number(t)
+    return Number.isFinite(n) ? n : null
+  }
+  return null
+}
+
+function sortRows(rows, key, dir, columns = []) {
   if (!key) return rows
+  const colType = columns.find(c => c.key === key)?.type
+  const forceNumeric = NUMERIC_TYPES.has(colType)
   return [...rows].sort((a, b) => {
     const av = a[key], bv = b[key]
     const aEmpty = av === '' || av === null || av === undefined
@@ -74,12 +98,13 @@ function sortRows(rows, key, dir) {
     if (aEmpty && bEmpty) return 0
     if (aEmpty) return 1   // empties always last
     if (bEmpty) return -1
-    const aNum = typeof av === 'number', bNum = typeof bv === 'number'
+    const aNum = numericValue(av)
+    const bNum = numericValue(bv)
     let cmp
-    if (aNum && bNum) {
-      cmp = av - bv
+    if (forceNumeric || (aNum !== null && bNum !== null)) {
+      cmp = (aNum ?? 0) - (bNum ?? 0)
     } else {
-      cmp = String(av).toLowerCase().localeCompare(String(bv).toLowerCase())
+      cmp = String(av).toLowerCase().localeCompare(String(bv).toLowerCase(), undefined, { numeric: true })
     }
     return dir === 'desc' ? -cmp : cmp
   })
@@ -95,15 +120,24 @@ function SortIcon({ col, sortKey, sortDir }) {
 /**
  * DataGrid
  *
- * @param {object[]} data       Filtered rows to display
- * @param {object[]} columns    [{ key, label, type? }]  type defaults to 'text'
- * @param {number}   rowCount   Total unfiltered row count (for display in header)
- * @param {number}   limit      Collapse to this many rows by default (null = show all)
+ * @param {object[]} data            Filtered rows to display
+ * @param {object[]} columns         [{ key, label, type? }]  type defaults to 'text'
+ * @param {number}   rowCount        Total unfiltered row count (for display in header)
+ * @param {number}   limit           Collapse to this many rows by default (null = show all)
+ * @param {string}   defaultSortKey  Column key to sort by on first render
+ * @param {'asc'|'desc'} defaultSortDir
  */
-export default function DataGrid({ data = [], columns = [], rowCount, limit = null }) {
+export default function DataGrid({
+  data = [],
+  columns = [],
+  rowCount,
+  limit = null,
+  defaultSortKey = null,
+  defaultSortDir = 'asc',
+}) {
   const total = rowCount ?? data.length
-  const [sortKey, setSortKey] = useState(null)
-  const [sortDir, setSortDir] = useState('asc')
+  const [sortKey, setSortKey] = useState(defaultSortKey)
+  const [sortDir, setSortDir] = useState(defaultSortDir)
   const [expanded, setExpanded] = useState(false)
 
   function handleSort(key) {
@@ -111,11 +145,15 @@ export default function DataGrid({ data = [], columns = [], rowCount, limit = nu
       setSortDir(d => d === 'asc' ? 'desc' : 'asc')
     } else {
       setSortKey(key)
-      setSortDir('asc')
+      const colType = columns.find(c => c.key === key)?.type
+      setSortDir(DESC_FIRST_TYPES.has(colType) ? 'desc' : 'asc')
     }
   }
 
-  const sorted = useMemo(() => sortRows(data, sortKey, sortDir), [data, sortKey, sortDir])
+  const sorted = useMemo(
+    () => sortRows(data, sortKey, sortDir, columns),
+    [data, sortKey, sortDir, columns],
+  )
   const isLimited = limit !== null && !expanded && sorted.length > limit
   const displayRows = isLimited ? sorted.slice(0, limit) : sorted
 
@@ -160,7 +198,7 @@ export default function DataGrid({ data = [], columns = [], rowCount, limit = nu
             </thead>
             <tbody>
               {displayRows.map((row, i) => (
-                <tr key={i}>
+                <tr key={[row.team, row.runner, row.name, row.event_name, row.division, row.gender, row.event_id, i].filter(v => v !== undefined && v !== null && v !== '').join('|')}>
                   {columns.map(col => (
                     <td key={col.key}>
                       <Cell type={col.type ?? 'text'} value={row[col.key]} href={col.hrefKey ? row[col.hrefKey] : undefined} />

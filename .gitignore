@@ -4,6 +4,7 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+email/
 
 # Environment / secrets (all locations)
 .env

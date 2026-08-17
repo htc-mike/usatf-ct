@@ -21,16 +21,13 @@ const POINTS_FILTER_DEFS = [
 ]
 
 const POINTS_COLUMNS = [
-  { key: 'rank',       label: 'Rank',     type: 'rank' },
-  { key: 'division',   label: 'Division', type: 'division' },
-  { key: 'runner',     label: 'Runner' },
-  { key: 'gender',     label: 'Gender',   type: 'gender' },
-  { key: 'age',        label: 'Age' },
-  { key: 'time',       label: 'Time',     type: 'time' },
-  { key: 'pace',       label: 'Pace/mi',  type: 'time' },
-  { key: 'team',       label: 'Team' },
-  { key: 'points',     label: 'Points',   type: 'points' },
-  { key: 'event_name', label: 'Event' },
+  { key: 'rank',     label: 'Rank',     type: 'rank' },
+  { key: 'division', label: 'Division', type: 'division' },
+  { key: 'runner',   label: 'Runner' },
+  { key: 'gender',   label: 'Gender',   type: 'gender' },
+  { key: 'age',      label: 'Age' },
+  { key: 'team',     label: 'Team' },
+  { key: 'points',   label: 'Points',   type: 'points' },
 ]
 
 const POINTS_EXPAND_LIMIT = 10
@@ -125,9 +122,43 @@ export default function Individual() {
     })
   }, [pointsData, pFilters, pSearch])
 
+  const aggregatedPoints = useMemo(() => {
+    const map = {}
+    for (const row of filteredPoints) {
+      const key = `${row.runner}|${row.division}|${row.gender}`
+      if (!map[key]) {
+        map[key] = {
+          runner:   row.runner,
+          division: row.division,
+          gender:   row.gender,
+          team:     row.team,
+          age:      Number(row.age) || 0,
+          points:   0,
+        }
+      }
+      map[key].points += Number(row.points) || 0
+      const age = Number(row.age)
+      if (Number.isFinite(age) && age > map[key].age) map[key].age = age
+      if (row.team) map[key].team = row.team
+    }
+
+    const groups = {}
+    for (const row of Object.values(map)) {
+      const g = `${row.division}|${row.gender}`
+      if (!groups[g]) groups[g] = []
+      groups[g].push(row)
+    }
+    for (const g of Object.values(groups)) {
+      g.sort((a, b) => b.points - a.points || String(a.runner).localeCompare(String(b.runner)))
+      g.forEach((r, i) => { r.rank = i + 1 })
+    }
+
+    return Object.values(map).sort((a, b) => b.points - a.points || a.rank - b.rank)
+  }, [filteredPoints])
+
   const filteredPointsVisible = expanded
-    ? filteredPoints
-    : filteredPoints.slice(0, POINTS_EXPAND_LIMIT)
+    ? aggregatedPoints
+    : aggregatedPoints.slice(0, POINTS_EXPAND_LIMIT)
 
   const filtered = useMemo(() => {
     return data.filter(row => {
@@ -178,10 +209,12 @@ export default function Individual() {
             <DataGrid
               data={filteredPointsVisible}
               columns={POINTS_COLUMNS}
-              rowCount={filteredPoints.length}
+              rowCount={aggregatedPoints.length}
+              defaultSortKey="points"
+              defaultSortDir="desc"
             />
 
-            {filteredPoints.length > POINTS_EXPAND_LIMIT && (
+            {aggregatedPoints.length > POINTS_EXPAND_LIMIT && (
               <button
                 onClick={() => setExpanded(e => !e)}
                 className="mt-3 flex items-center gap-1.5 text-sm font-semibold text-brand-blue
@@ -189,7 +222,7 @@ export default function Individual() {
               >
                 {expanded
                   ? <><ChevronUp className="w-4 h-4" /> Show less</>
-                  : <><ChevronDown className="w-4 h-4" /> Show all {filteredPoints.length} rows</>
+                  : <><ChevronDown className="w-4 h-4" /> Show all {aggregatedPoints.length} rows</>
                 }
               </button>
             )}

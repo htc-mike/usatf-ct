@@ -43,9 +43,9 @@ team_place_points = {
 
 def main():
 
-    load_file = False
-    event_id = None
-    results_file = "branford.5.miler.csv"
+    load_file = True
+    event_id = 6
+    results_file = "sneeker.4.miler.csv"
 
     if load_file:
         load_file_match_results(event_id, results_file)
