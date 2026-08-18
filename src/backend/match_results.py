@@ -11,23 +11,33 @@ usatf_divisions = [
     {
         "name":"Open",
         "age":16,
-        "runners": 5
+        "runners": 5,
+        "counts_for_team_points": True,
      },
     {
         "name":"Masters",
         "age":40,
-        "runners": 3
+        "runners": 3,
+        "counts_for_team_points": True,
      },
     {
         "name":"Grandmasters",
         "age":50,
-        "runners": 3
+        "runners": 3,
+        "counts_for_team_points": True,
      },
     {
         "name":"Seniors",
         "age":60,
-        "runners": 3
-     }
+        "runners": 3,
+        "counts_for_team_points": True,
+     },
+    {
+        "name":"Veteran",  # individual points only — no team points
+        "age":70,
+        "runners": 3,
+        "counts_for_team_points": False,
+     },
 ]
 
 team_place_points = {
@@ -43,8 +53,8 @@ team_place_points = {
 
 def main():
 
-    load_file = True
-    event_id = 6
+    load_file = False
+    event_id = None
     results_file = "sneeker.4.miler.csv"
 
     if load_file:
@@ -150,8 +160,11 @@ def match_results(event_id:int, df_results:pd.DataFrame):
             df = get_top_results(df_div, division['runners'])
             df['division'] = division['name']
 
-            # Persist team individual
+            # Persist team individual (Veteran is still recorded for tracking)
             data.load_team_individuals(df)
+
+            if not division.get('counts_for_team_points', True):
+                continue
 
             # aggregate team place points
             points_by_team = aggregate_team_place_points(df)
