@@ -3,8 +3,8 @@
     "runner": "Susan Hammond",
     "gender": "F",
     "team": "Mohegan Striders",
-    "total_points": 93,
-    "events": 4,
+    "total_points": 116,
+    "events": 5,
     "age": 63,
     "division": "Seniors",
     "rank": 1
@@ -13,8 +13,8 @@
     "runner": "Alison Gallerani",
     "gender": "F",
     "team": "Sound Runner",
-    "total_points": 85,
-    "events": 5,
+    "total_points": 102,
+    "events": 6,
     "age": 59,
     "division": "Grandmasters",
     "rank": 2
@@ -23,11 +23,21 @@
     "runner": "Kevin Glenn",
     "gender": "M",
     "team": "Manchester RC",
-    "total_points": 80,
-    "events": 5,
+    "total_points": 94,
+    "events": 6,
     "age": 68,
     "division": "Seniors",
     "rank": 1
+  },
+  {
+    "runner": "Jeff Walker",
+    "gender": "M",
+    "team": "Mohegan Striders",
+    "total_points": 89,
+    "events": 4,
+    "age": 62,
+    "division": "Seniors",
+    "rank": 2
   },
   {
     "runner": "Kerry Arsenault",
@@ -47,37 +57,57 @@
     "events": 4,
     "age": 47,
     "division": "Masters",
-    "rank": 2
-  },
-  {
-    "runner": "Ned Kennedy",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 64,
-    "events": 5,
-    "age": 67,
-    "division": "Seniors",
     "rank": 3
-  },
-  {
-    "runner": "Jeff Walker",
-    "gender": "M",
-    "team": "Mohegan Striders",
-    "total_points": 62,
-    "events": 3,
-    "age": 62,
-    "division": "Seniors",
-    "rank": 4
   },
   {
     "runner": "Marilyn Quinlan",
     "gender": "F",
     "team": "Manchester RC",
-    "total_points": 61,
-    "events": 5,
+    "total_points": 75,
+    "events": 6,
     "age": 65,
     "division": "Seniors",
     "rank": 4
+  },
+  {
+    "runner": "Ned Kennedy",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 73,
+    "events": 6,
+    "age": 67,
+    "division": "Seniors",
+    "rank": 4
+  },
+  {
+    "runner": "Kathleen Shaw",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 63,
+    "events": 6,
+    "age": 58,
+    "division": "Grandmasters",
+    "rank": 5
+  },
+  {
+    "runner": "Barbara Pearce",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 58,
+    "events": 5,
+    "age": 71,
+    "division": "Veteran",
+    "rank": 6
+  },
+  {
+    "runner": "Miche Palmer",
+    "gender": "F",
+    "team": "New Haven RR",
+    "total_points": 58,
+    "events": 5,
+    "age": 44,
+    "division": "Masters",
+    "rank": 6
   },
   {
     "runner": "Billy Barone",
@@ -90,24 +120,24 @@
     "rank": 5
   },
   {
-    "runner": "Kathleen Shaw",
-    "gender": "F",
+    "runner": "Brett Stoeffler",
+    "gender": "M",
     "team": "Manchester RC",
-    "total_points": 54,
-    "events": 5,
-    "age": 58,
+    "total_points": 52,
+    "events": 4,
+    "age": 59,
     "division": "Grandmasters",
-    "rank": 5
+    "rank": 6
   },
   {
-    "runner": "Barbara Pearce",
+    "runner": "Andrea Condie",
     "gender": "F",
-    "team": "Milford RR",
-    "total_points": 47,
-    "events": 4,
-    "age": 71,
-    "division": "Veteran",
-    "rank": 6
+    "team": "New Haven RR",
+    "total_points": 52,
+    "events": 5,
+    "age": 29,
+    "division": "Open",
+    "rank": 8
   },
   {
     "runner": "Leigh Webb",
@@ -117,17 +147,27 @@
     "events": 4,
     "age": 66,
     "division": "Seniors",
-    "rank": 6
+    "rank": 9
   },
   {
-    "runner": "Miche Palmer",
+    "runner": "Mark Hegarty",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 46,
+    "events": 5,
+    "age": 31,
+    "division": "Open",
+    "rank": 7
+  },
+  {
+    "runner": "Shelly Rivera",
     "gender": "F",
-    "team": "New Haven RR",
-    "total_points": 47,
-    "events": 4,
-    "age": 44,
+    "team": "Mohegan Striders",
+    "total_points": 46,
+    "events": 6,
+    "age": 43,
     "division": "Masters",
-    "rank": 6
+    "rank": 10
   },
   {
     "runner": "Laurie Schaeffer",
@@ -137,37 +177,57 @@
     "events": 5,
     "age": 60,
     "division": "Seniors",
-    "rank": 9
-  },
-  {
-    "runner": "Andrea Condie",
-    "gender": "F",
-    "team": "New Haven RR",
-    "total_points": 44,
-    "events": 4,
-    "age": 29,
-    "division": "Open",
     "rank": 10
   },
   {
-    "runner": "Brett Stoeffler",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 41,
-    "events": 3,
-    "age": 59,
-    "division": "Grandmasters",
-    "rank": 6
+    "runner": "Janet Voelpert",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 45,
+    "events": 4,
+    "age": 79,
+    "division": "Veteran",
+    "rank": 12
   },
   {
-    "runner": "Shelly Rivera",
-    "gender": "F",
-    "team": "Mohegan Striders",
-    "total_points": 38,
+    "runner": "Lee Carlisle",
+    "gender": "M",
+    "team": "New Haven RR",
+    "total_points": 44,
     "events": 5,
-    "age": 43,
+    "age": 42,
     "division": "Masters",
-    "rank": 11
+    "rank": 8
+  },
+  {
+    "runner": "Mira Records",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 40,
+    "events": 4,
+    "age": 34,
+    "division": "Open",
+    "rank": 13
+  },
+  {
+    "runner": "Derek McGlynn",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 39,
+    "events": 3,
+    "age": 72,
+    "division": "Veteran",
+    "rank": 9
+  },
+  {
+    "runner": "Larissa Giordano",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 39,
+    "events": 6,
+    "age": 49,
+    "division": "Masters",
+    "rank": 14
   },
   {
     "runner": "Gregory Weaver",
@@ -177,37 +237,47 @@
     "events": 4,
     "age": 46,
     "division": "Masters",
-    "rank": 7
+    "rank": 10
   },
   {
-    "runner": "Mark Hegarty",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 37,
-    "events": 4,
-    "age": 31,
-    "division": "Open",
-    "rank": 8
-  },
-  {
-    "runner": "Janet Voelpert",
+    "runner": "Debbie Perry",
     "gender": "F",
-    "team": "Milford RR",
-    "total_points": 36,
-    "events": 3,
-    "age": 79,
+    "team": "Manchester RC",
+    "total_points": 35,
+    "events": 4,
+    "age": 70,
     "division": "Veteran",
-    "rank": 12
+    "rank": 15
   },
   {
-    "runner": "Lee Carlisle",
+    "runner": "Thomas Messer",
     "gender": "M",
     "team": "New Haven RR",
     "total_points": 35,
-    "events": 4,
-    "age": 42,
-    "division": "Masters",
-    "rank": 9
+    "events": 3,
+    "age": 70,
+    "division": "Veteran",
+    "rank": 11
+  },
+  {
+    "runner": "Linda Cordova",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 34,
+    "events": 5,
+    "age": 61,
+    "division": "Seniors",
+    "rank": 16
+  },
+  {
+    "runner": "Melissa Emmerich",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 34,
+    "events": 6,
+    "age": 55,
+    "division": "Grandmasters",
+    "rank": 16
   },
   {
     "runner": "Jane Holler",
@@ -217,7 +287,27 @@
     "events": 4,
     "age": 76,
     "division": "Veteran",
-    "rank": 13
+    "rank": 16
+  },
+  {
+    "runner": "Alessandro Macchi",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 33,
+    "events": 5,
+    "age": 41,
+    "division": "Masters",
+    "rank": 12
+  },
+  {
+    "runner": "John Minervino",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 33,
+    "events": 5,
+    "age": 63,
+    "division": "Seniors",
+    "rank": 12
   },
   {
     "runner": "Kris-Anne Kane",
@@ -227,27 +317,57 @@
     "events": 3,
     "age": 62,
     "division": "Seniors",
-    "rank": 14
+    "rank": 19
   },
   {
-    "runner": "Larissa Giordano",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 32,
-    "events": 5,
-    "age": 49,
+    "runner": "Grant O'Connor",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 33,
+    "events": 3,
+    "age": 29,
+    "division": "Open",
+    "rank": 12
+  },
+  {
+    "runner": "Patrick Guelakis",
+    "gender": "M",
+    "team": "New Haven RR",
+    "total_points": 31,
+    "events": 3,
+    "age": 46,
     "division": "Masters",
     "rank": 15
   },
   {
-    "runner": "Thomas Biederer",
+    "runner": "Colin Rooney",
     "gender": "M",
-    "team": "unaffiliated",
+    "team": "Hartbeat TC",
+    "total_points": 31,
+    "events": 4,
+    "age": 30,
+    "division": "Open",
+    "rank": 15
+  },
+  {
+    "runner": "Melinda Hedding",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 31,
+    "events": 4,
+    "age": 72,
+    "division": "Veteran",
+    "rank": 20
+  },
+  {
+    "runner": "Katie Overstrum",
+    "gender": "F",
+    "team": "New Haven RR",
     "total_points": 30,
-    "events": 2,
-    "age": 56,
-    "division": "Grandmasters",
-    "rank": 10
+    "events": 5,
+    "age": 28,
+    "division": "Open",
+    "rank": 21
   },
   {
     "runner": "Louis Free",
@@ -257,25 +377,15 @@
     "events": 4,
     "age": 66,
     "division": "Seniors",
-    "rank": 10
+    "rank": 17
   },
   {
-    "runner": "Mira Records",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 29,
-    "events": 3,
-    "age": 34,
-    "division": "Open",
-    "rank": 16
-  },
-  {
-    "runner": "Melissa Emmerich",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 28,
-    "events": 5,
-    "age": 54,
+    "runner": "Thomas Biederer",
+    "gender": "M",
+    "team": "unaffiliated",
+    "total_points": 30,
+    "events": 2,
+    "age": 56,
     "division": "Grandmasters",
     "rank": 17
   },
@@ -287,47 +397,7 @@
     "events": 3,
     "age": 70,
     "division": "Veteran",
-    "rank": 12
-  },
-  {
-    "runner": "Katie Overstrum",
-    "gender": "F",
-    "team": "New Haven RR",
-    "total_points": 27,
-    "events": 4,
-    "age": 28,
-    "division": "Open",
-    "rank": 18
-  },
-  {
-    "runner": "Alessandro Macchi",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 27,
-    "events": 4,
-    "age": 41,
-    "division": "Masters",
-    "rank": 12
-  },
-  {
-    "runner": "Thomas Messer",
-    "gender": "M",
-    "team": "New Haven RR",
-    "total_points": 26,
-    "events": 2,
-    "age": 70,
-    "division": "Veteran",
-    "rank": 14
-  },
-  {
-    "runner": "John Minervino",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 26,
-    "events": 4,
-    "age": 62,
-    "division": "Seniors",
-    "rank": 14
+    "rank": 19
   },
   {
     "runner": "Bartholomew Wasiolek",
@@ -337,47 +407,27 @@
     "events": 2,
     "age": 57,
     "division": "Grandmasters",
-    "rank": 16
+    "rank": 20
   },
   {
-    "runner": "Derek McGlynn",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 25,
-    "events": 2,
-    "age": 71,
-    "division": "Veteran",
-    "rank": 16
-  },
-  {
-    "runner": "Melinda Hedding",
-    "gender": "F",
-    "team": "Mohegan Striders",
-    "total_points": 24,
-    "events": 3,
-    "age": 72,
-    "division": "Veteran",
-    "rank": 19
-  },
-  {
-    "runner": "Linda Cordova",
-    "gender": "F",
-    "team": "Milford RR",
-    "total_points": 24,
-    "events": 4,
-    "age": 61,
-    "division": "Seniors",
-    "rank": 19
-  },
-  {
-    "runner": "Colin Rooney",
+    "runner": "Ben Lanza",
     "gender": "M",
     "team": "Hartbeat TC",
-    "total_points": 23,
-    "events": 3,
-    "age": 30,
+    "total_points": 24,
+    "events": 5,
+    "age": 28,
     "division": "Open",
-    "rank": 18
+    "rank": 21
+  },
+  {
+    "runner": "Phil Roucoulet",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 23,
+    "events": 5,
+    "age": 54,
+    "division": "Grandmasters",
+    "rank": 22
   },
   {
     "runner": "Melissa Stellato",
@@ -387,27 +437,57 @@
     "events": 2,
     "age": 44,
     "division": "Masters",
-    "rank": 21
+    "rank": 22
   },
   {
-    "runner": "Grant O'Connor",
+    "runner": "Scott Hart",
     "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 22,
-    "events": 2,
-    "age": 29,
-    "division": "Open",
-    "rank": 19
+    "team": "Sound Runner",
+    "total_points": 21,
+    "events": 4,
+    "age": 57,
+    "division": "Grandmasters",
+    "rank": 23
   },
   {
-    "runner": "Patrick Guelakis",
+    "runner": "Tom Geer",
     "gender": "M",
-    "team": "New Haven RR",
-    "total_points": 20,
-    "events": 2,
-    "age": 46,
+    "team": "Manchester RC",
+    "total_points": 21,
+    "events": 4,
+    "age": 44,
     "division": "Masters",
-    "rank": 20
+    "rank": 23
+  },
+  {
+    "runner": "Cameron Chaplen",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 20,
+    "events": 3,
+    "age": 30,
+    "division": "Open",
+    "rank": 23
+  },
+  {
+    "runner": "Samuel Alexander",
+    "gender": "M",
+    "team": "Mohegan Striders",
+    "total_points": 20,
+    "events": 3,
+    "age": 36,
+    "division": "Open",
+    "rank": 25
+  },
+  {
+    "runner": "Nicole LeBlanc",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 20,
+    "events": 3,
+    "age": 40,
+    "division": "Masters",
+    "rank": 23
   },
   {
     "runner": "Tom Soisson",
@@ -417,17 +497,37 @@
     "events": 3,
     "age": 63,
     "division": "Seniors",
-    "rank": 20
+    "rank": 25
   },
   {
-    "runner": "Phil Roucoulet",
+    "runner": "Mario Longo",
     "gender": "M",
-    "team": "Sound Runner",
+    "team": "Mohegan Striders",
     "total_points": 19,
-    "events": 4,
-    "age": 53,
+    "events": 3,
+    "age": 54,
     "division": "Grandmasters",
-    "rank": 22
+    "rank": 27
+  },
+  {
+    "runner": "Bonnie Lees",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 19,
+    "events": 3,
+    "age": 72,
+    "division": "Veteran",
+    "rank": 25
+  },
+  {
+    "runner": "Margit MacDougall",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 18,
+    "events": 4,
+    "age": 60,
+    "division": "Seniors",
+    "rank": 26
   },
   {
     "runner": "Jessica Smith",
@@ -437,27 +537,7 @@
     "events": 3,
     "age": 38,
     "division": "Open",
-    "rank": 22
-  },
-  {
-    "runner": "Ben Lanza",
-    "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 18,
-    "events": 4,
-    "age": 28,
-    "division": "Open",
-    "rank": 23
-  },
-  {
-    "runner": "Scott Hart",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 18,
-    "events": 3,
-    "age": 57,
-    "division": "Grandmasters",
-    "rank": 23
+    "rank": 26
   },
   {
     "runner": "Way Hedding",
@@ -467,27 +547,27 @@
     "events": 3,
     "age": 76,
     "division": "Veteran",
-    "rank": 25
+    "rank": 28
   },
   {
-    "runner": "Alyssa Natario",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 16,
-    "events": 2,
-    "age": 35,
-    "division": "Open",
-    "rank": 23
-  },
-  {
-    "runner": "Max Aronow",
+    "runner": "Paul Moyse",
     "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 16,
+    "team": "Milford RR",
+    "total_points": 17,
     "events": 2,
-    "age": 28,
-    "division": "Open",
-    "rank": 26
+    "age": 72,
+    "division": "Veteran",
+    "rank": 28
+  },
+  {
+    "runner": "William VanNieuwenhuyze",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 16,
+    "events": 4,
+    "age": 63,
+    "division": "Seniors",
+    "rank": 30
   },
   {
     "runner": "Tom Walsh",
@@ -497,17 +577,57 @@
     "events": 2,
     "age": 71,
     "division": "Veteran",
-    "rank": 26
+    "rank": 30
   },
   {
-    "runner": "Samuel Alexander",
-    "gender": "M",
-    "team": "Mohegan Striders",
-    "total_points": 15,
-    "events": 2,
-    "age": 36,
+    "runner": "Olivia Mondo",
+    "gender": "F",
+    "team": "Hartbeat TC",
+    "total_points": 16,
+    "events": 3,
+    "age": 31,
     "division": "Open",
     "rank": 28
+  },
+  {
+    "runner": "Bill Rollinson",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 16,
+    "events": 4,
+    "age": 63,
+    "division": "Seniors",
+    "rank": 30
+  },
+  {
+    "runner": "Alyssa Natario",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 16,
+    "events": 2,
+    "age": 35,
+    "division": "Open",
+    "rank": 28
+  },
+  {
+    "runner": "Jeffrey Vuono",
+    "gender": "M",
+    "team": "Mohegan Striders",
+    "total_points": 16,
+    "events": 1,
+    "age": 63,
+    "division": "Seniors",
+    "rank": 30
+  },
+  {
+    "runner": "Max Aronow",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 16,
+    "events": 2,
+    "age": 28,
+    "division": "Open",
+    "rank": 30
   },
   {
     "runner": "Kris Anne Kane",
@@ -517,17 +637,37 @@
     "events": 1,
     "age": 61,
     "division": "Seniors",
-    "rank": 24
+    "rank": 30
   },
   {
-    "runner": "William VanNieuwenhuyze",
+    "runner": "Louis Trevisan",
     "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 15,
-    "events": 3,
-    "age": 63,
-    "division": "Seniors",
-    "rank": 28
+    "team": "Milford RR",
+    "total_points": 14,
+    "events": 2,
+    "age": 76,
+    "division": "Veteran",
+    "rank": 35
+  },
+  {
+    "runner": "Adam Gootnick",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 14,
+    "events": 2,
+    "age": 40,
+    "division": "Masters",
+    "rank": 35
+  },
+  {
+    "runner": "Abby Gerbo",
+    "gender": "F",
+    "team": "Hartbeat TC",
+    "total_points": 14,
+    "events": 2,
+    "age": 32,
+    "division": "Open",
+    "rank": 31
   },
   {
     "runner": "Tima Karginov",
@@ -537,27 +677,7 @@
     "events": 2,
     "age": 31,
     "division": "Open",
-    "rank": 30
-  },
-  {
-    "runner": "Bonnie Lees",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 14,
-    "events": 2,
-    "age": 72,
-    "division": "Veteran",
-    "rank": 25
-  },
-  {
-    "runner": "Tom Geer",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 14,
-    "events": 3,
-    "age": 43,
-    "division": "Masters",
-    "rank": 30
+    "rank": 35
   },
   {
     "runner": "Jerry Meshell",
@@ -567,17 +687,27 @@
     "events": 2,
     "age": 70,
     "division": "Veteran",
-    "rank": 30
+    "rank": 35
   },
   {
-    "runner": "Cameron Chaplen",
+    "runner": "Raquel Brainard",
     "gender": "F",
-    "team": "Manchester RC",
+    "team": "Sound Runner",
+    "total_points": 13,
+    "events": 3,
+    "age": 44,
+    "division": "Masters",
+    "rank": 32
+  },
+  {
+    "runner": "Kathryn Miller-Jensen",
+    "gender": "F",
+    "team": "New Haven RR",
     "total_points": 13,
     "events": 2,
-    "age": 30,
-    "division": "Open",
-    "rank": 26
+    "age": 51,
+    "division": "Grandmasters",
+    "rank": 32
   },
   {
     "runner": "Brian Graca",
@@ -587,27 +717,27 @@
     "events": 2,
     "age": 48,
     "division": "Masters",
-    "rank": 33
+    "rank": 39
   },
   {
-    "runner": "Margit MacDougall",
-    "gender": "F",
-    "team": "Sound Runner",
-    "total_points": 13,
-    "events": 3,
-    "age": 60,
-    "division": "Seniors",
-    "rank": 26
-  },
-  {
-    "runner": "Megan McCollum",
-    "gender": "F",
-    "team": "Hartbeat TC",
+    "runner": "Ciaran Fisher",
+    "gender": "M",
+    "team": "Red Rose TC",
     "total_points": 13,
     "events": 2,
-    "age": 31,
+    "age": 30,
     "division": "Open",
-    "rank": 26
+    "rank": 39
+  },
+  {
+    "runner": "Igor Aliczi",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 13,
+    "events": 3,
+    "age": 28,
+    "division": "Open",
+    "rank": 39
   },
   {
     "runner": "Mark Flanagan",
@@ -617,7 +747,17 @@
     "events": 1,
     "age": 73,
     "division": "Veteran",
-    "rank": 33
+    "rank": 39
+  },
+  {
+    "runner": "Megan McCollum",
+    "gender": "F",
+    "team": "Hartbeat TC",
+    "total_points": 13,
+    "events": 2,
+    "age": 31,
+    "division": "Open",
+    "rank": 32
   },
   {
     "runner": "Dani Kennedy",
@@ -627,27 +767,7 @@
     "events": 4,
     "age": 67,
     "division": "Seniors",
-    "rank": 26
-  },
-  {
-    "runner": "Debbie Perry",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 12,
-    "events": 3,
-    "age": 69,
-    "division": "Seniors",
-    "rank": 30
-  },
-  {
-    "runner": "Olivia Mondo",
-    "gender": "F",
-    "team": "Hartbeat TC",
-    "total_points": 12,
-    "events": 2,
-    "age": 30,
-    "division": "Open",
-    "rank": 30
+    "rank": 32
   },
   {
     "runner": "Everett Hackett",
@@ -657,46 +777,36 @@
     "events": 3,
     "age": 36,
     "division": "Open",
-    "rank": 35
+    "rank": 43
   },
   {
-    "runner": "Bill Rollinson",
+    "runner": "Bryan Bausinger",
     "gender": "M",
-    "team": "Milford RR",
+    "team": "New Haven RR",
     "total_points": 12,
     "events": 3,
-    "age": 63,
-    "division": "Seniors",
-    "rank": 35
+    "age": 30,
+    "division": "Open",
+    "rank": 43
   },
   {
-    "runner": "Nicole LeBlanc",
+    "runner": "Kirsten Wilkins",
     "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 11,
-    "events": 2,
-    "age": 40,
-    "division": "Masters",
-    "rank": 32
-  },
-  {
-    "runner": "Dan Boissonneault",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 11,
-    "events": 2,
-    "age": 70,
-    "division": "Veteran",
-    "rank": 37
-  },
-  {
-    "runner": "Mario Longo",
-    "gender": "M",
-    "team": "Mohegan Striders",
-    "total_points": 11,
-    "events": 2,
-    "age": 54,
+    "team": "Milford RR",
+    "total_points": 12,
+    "events": 4,
+    "age": 51,
     "division": "Grandmasters",
+    "rank": 36
+  },
+  {
+    "runner": "Olivia Provance",
+    "gender": "F",
+    "team": "New Haven RR",
+    "total_points": 11,
+    "events": 2,
+    "age": 33,
+    "division": "Open",
     "rank": 37
   },
   {
@@ -707,37 +817,37 @@
     "events": 2,
     "age": 76,
     "division": "Veteran",
+    "rank": 45
+  },
+  {
+    "runner": "Kate Johnston",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 11,
+    "events": 2,
+    "age": 43,
+    "division": "Masters",
     "rank": 37
   },
   {
-    "runner": "Olivia Provance",
-    "gender": "F",
-    "team": "New Haven RR",
+    "runner": "Dan Boissonneault",
+    "gender": "M",
+    "team": "Sound Runner",
     "total_points": 11,
     "events": 2,
-    "age": 33,
-    "division": "Open",
-    "rank": 32
+    "age": 70,
+    "division": "Veteran",
+    "rank": 45
   },
   {
-    "runner": "Bryan Bausinger",
+    "runner": "Aaron King",
     "gender": "M",
     "team": "New Haven RR",
     "total_points": 10,
-    "events": 2,
-    "age": 30,
-    "division": "Open",
-    "rank": 40
-  },
-  {
-    "runner": "Caroline Nevin",
-    "gender": "F",
-    "team": "Sound Runner",
-    "total_points": 10,
-    "events": 2,
-    "age": 34,
-    "division": "Open",
-    "rank": 34
+    "events": 3,
+    "age": 42,
+    "division": "Masters",
+    "rank": 47
   },
   {
     "runner": "Michael Stadolnik",
@@ -747,27 +857,47 @@
     "events": 3,
     "age": 53,
     "division": "Grandmasters",
-    "rank": 40
+    "rank": 47
   },
   {
-    "runner": "Igor Aliczi",
+    "runner": "David McCrea-Dastur",
     "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 10,
-    "events": 2,
-    "age": 27,
-    "division": "Open",
-    "rank": 40
-  },
-  {
-    "runner": "Kirsten Wilkins",
-    "gender": "F",
-    "team": "Milford RR",
+    "team": "Hartbeat TC",
     "total_points": 10,
     "events": 3,
-    "age": 51,
-    "division": "Grandmasters",
-    "rank": 34
+    "age": 49,
+    "division": "Masters",
+    "rank": 47
+  },
+  {
+    "runner": "Deb Esposito",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 10,
+    "events": 4,
+    "age": 62,
+    "division": "Seniors",
+    "rank": 39
+  },
+  {
+    "runner": "Jeff Anderson",
+    "gender": "M",
+    "team": "Mohegan Striders",
+    "total_points": 10,
+    "events": 2,
+    "age": 64,
+    "division": "Seniors",
+    "rank": 47
+  },
+  {
+    "runner": "Caroline Nevin",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 10,
+    "events": 2,
+    "age": 34,
+    "division": "Open",
+    "rank": 39
   },
   {
     "runner": "Robert Emord",
@@ -777,27 +907,7 @@
     "events": 2,
     "age": 45,
     "division": "Masters",
-    "rank": 43
-  },
-  {
-    "runner": "Raquel Brainard",
-    "gender": "F",
-    "team": "Sound Runner",
-    "total_points": 9,
-    "events": 2,
-    "age": 43,
-    "division": "Masters",
-    "rank": 36
-  },
-  {
-    "runner": "Paul Moyse",
-    "gender": "M",
-    "team": "Milford RR",
-    "total_points": 9,
-    "events": 1,
-    "age": 72,
-    "division": "Veteran",
-    "rank": 43
+    "rank": 51
   },
   {
     "runner": "Megan Andrew",
@@ -807,17 +917,27 @@
     "events": 2,
     "age": 25,
     "division": "Open",
-    "rank": 36
+    "rank": 41
   },
   {
-    "runner": "David McCrea-Dastur",
-    "gender": "M",
-    "team": "Hartbeat TC",
+    "runner": "Cynthia Loynd",
+    "gender": "F",
+    "team": "Milford RR",
     "total_points": 9,
     "events": 2,
-    "age": 49,
-    "division": "Masters",
-    "rank": 43
+    "age": 66,
+    "division": "Seniors",
+    "rank": 41
+  },
+  {
+    "runner": "Hayley Collins",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 9,
+    "events": 1,
+    "age": 27,
+    "division": "Open",
+    "rank": 41
   },
   {
     "runner": "Jake Jayworth",
@@ -827,37 +947,7 @@
     "events": 1,
     "age": 30,
     "division": "Open",
-    "rank": 43
-  },
-  {
-    "runner": "Nicole Leblanc",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 9,
-    "events": 1,
-    "age": 40,
-    "division": "Masters",
-    "rank": 36
-  },
-  {
-    "runner": "Chris Testa",
-    "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 9,
-    "events": 2,
-    "age": 27,
-    "division": "Open",
-    "rank": 43
-  },
-  {
-    "runner": "Brent Stratton",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 9,
-    "events": 1,
-    "age": 70,
-    "division": "Veteran",
-    "rank": 43
+    "rank": 51
   },
   {
     "runner": "Carolyn Nye",
@@ -867,37 +957,57 @@
     "events": 1,
     "age": 43,
     "division": "Masters",
-    "rank": 36
+    "rank": 41
   },
   {
-    "runner": "Abby Gerbo",
-    "gender": "F",
-    "team": "Hartbeat TC",
-    "total_points": 8,
-    "events": 1,
-    "age": 32,
-    "division": "Open",
-    "rank": 40
-  },
-  {
-    "runner": "Jason Gibbons",
+    "runner": "Brent Stratton",
     "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 8,
-    "events": 1,
-    "age": 24,
-    "division": "Open",
-    "rank": 49
-  },
-  {
-    "runner": "Mary Zorzanello",
-    "gender": "F",
-    "team": "Mohegan Striders",
-    "total_points": 8,
+    "team": "Manchester RC",
+    "total_points": 9,
     "events": 1,
     "age": 70,
     "division": "Veteran",
-    "rank": 40
+    "rank": 51
+  },
+  {
+    "runner": "Chris Testa",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 9,
+    "events": 2,
+    "age": 27,
+    "division": "Open",
+    "rank": 51
+  },
+  {
+    "runner": "Christina Williams",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 9,
+    "events": 4,
+    "age": 47,
+    "division": "Masters",
+    "rank": 41
+  },
+  {
+    "runner": "Nicole Leblanc",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 9,
+    "events": 1,
+    "age": 40,
+    "division": "Masters",
+    "rank": 41
+  },
+  {
+    "runner": "Joel Schrock",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 9,
+    "events": 2,
+    "age": 40,
+    "division": "Masters",
+    "rank": 51
   },
   {
     "runner": "Josephine Jayworth",
@@ -907,7 +1017,7 @@
     "events": 2,
     "age": 31,
     "division": "Open",
-    "rank": 40
+    "rank": 47
   },
   {
     "runner": "Clare Coons",
@@ -917,7 +1027,27 @@
     "events": 2,
     "age": 29,
     "division": "Open",
-    "rank": 40
+    "rank": 47
+  },
+  {
+    "runner": "Mary Zorzanello",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 8,
+    "events": 1,
+    "age": 70,
+    "division": "Veteran",
+    "rank": 47
+  },
+  {
+    "runner": "Jason Gibbons",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 8,
+    "events": 1,
+    "age": 24,
+    "division": "Open",
+    "rank": 56
   },
   {
     "runner": "Juliana Cancellieri",
@@ -927,7 +1057,7 @@
     "events": 1,
     "age": 23,
     "division": "Open",
-    "rank": 40
+    "rank": 47
   },
   {
     "runner": "Kevin MacDonald",
@@ -937,47 +1067,27 @@
     "events": 2,
     "age": 69,
     "division": "Seniors",
-    "rank": 50
+    "rank": 57
   },
   {
-    "runner": "Deb Esposito",
+    "runner": "Elyse Adamic",
     "gender": "F",
-    "team": "Sound Runner",
-    "total_points": 7,
-    "events": 3,
-    "age": 62,
-    "division": "Seniors",
-    "rank": 45
-  },
-  {
-    "runner": "Louis Trevisan",
-    "gender": "M",
-    "team": "Milford RR",
-    "total_points": 7,
-    "events": 1,
-    "age": 75,
-    "division": "Veteran",
-    "rank": 50
-  },
-  {
-    "runner": "Aaron King",
-    "gender": "M",
-    "team": "New Haven RR",
+    "team": "Manchester RC",
     "total_points": 7,
     "events": 2,
-    "age": 42,
-    "division": "Masters",
-    "rank": 50
+    "age": 33,
+    "division": "Open",
+    "rank": 51
   },
   {
-    "runner": "Christina Williams",
+    "runner": "Anne Gaston",
     "gender": "F",
-    "team": "Milford RR",
-    "total_points": 7,
-    "events": 3,
-    "age": 47,
-    "division": "Masters",
-    "rank": 45
+    "team": "Mohegan Striders",
+    "total_points": 6,
+    "events": 1,
+    "age": 70,
+    "division": "Veteran",
+    "rank": 52
   },
   {
     "runner": "Christian Winkley",
@@ -987,97 +1097,7 @@
     "events": 1,
     "age": 51,
     "division": "Grandmasters",
-    "rank": 53
-  },
-  {
-    "runner": "Adam Gootnick",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 6,
-    "events": 1,
-    "age": 40,
-    "division": "Masters",
-    "rank": 53
-  },
-  {
-    "runner": "Kate Johnston",
-    "gender": "F",
-    "team": "Mohegan Striders",
-    "total_points": 6,
-    "events": 1,
-    "age": 42,
-    "division": "Masters",
-    "rank": 47
-  },
-  {
-    "runner": "Kathryn Miller-Jensen",
-    "gender": "F",
-    "team": "New Haven RR",
-    "total_points": 6,
-    "events": 1,
-    "age": 51,
-    "division": "Grandmasters",
-    "rank": 47
-  },
-  {
-    "runner": "Matthew Monahan",
-    "gender": "M",
-    "team": "New Haven RR",
-    "total_points": 6,
-    "events": 3,
-    "age": 53,
-    "division": "Grandmasters",
-    "rank": 53
-  },
-  {
-    "runner": "Elyse Adamic",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 6,
-    "events": 1,
-    "age": 33,
-    "division": "Open",
-    "rank": 47
-  },
-  {
-    "runner": "Nancy Olsen",
-    "gender": "F",
-    "team": "Mohegan Striders",
-    "total_points": 6,
-    "events": 1,
-    "age": 73,
-    "division": "Veteran",
-    "rank": 47
-  },
-  {
-    "runner": "Marie Arnesson Galler",
-    "gender": "F",
-    "team": "Sound Runner",
-    "total_points": 6,
-    "events": 1,
-    "age": 43,
-    "division": "Masters",
-    "rank": 47
-  },
-  {
-    "runner": "William Vannieuwenhuyze",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 6,
-    "events": 1,
-    "age": 63,
-    "division": "Seniors",
-    "rank": 53
-  },
-  {
-    "runner": "Stephen Fengler",
-    "gender": "M",
-    "team": "New Haven RR",
-    "total_points": 6,
-    "events": 2,
-    "age": 26,
-    "division": "Open",
-    "rank": 53
+    "rank": 58
   },
   {
     "runner": "David Fusfeld",
@@ -1087,7 +1107,7 @@
     "events": 2,
     "age": 50,
     "division": "Grandmasters",
-    "rank": 53
+    "rank": 58
   },
   {
     "runner": "Eric Stevenson",
@@ -1097,77 +1117,57 @@
     "events": 2,
     "age": 42,
     "division": "Masters",
-    "rank": 53
+    "rank": 58
   },
   {
-    "runner": "Ciaran Fisher",
-    "gender": "M",
-    "team": "Red Rose TC",
+    "runner": "Nancy Olsen",
+    "gender": "F",
+    "team": "Mohegan Striders",
     "total_points": 6,
     "events": 1,
-    "age": 29,
-    "division": "Open",
-    "rank": 53
-  },
-  {
-    "runner": "Bridget Komosky",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 5,
-    "events": 1,
-    "age": 38,
-    "division": "Open",
+    "age": 73,
+    "division": "Veteran",
     "rank": 52
   },
   {
-    "runner": "Vikash Malik",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 5,
-    "events": 1,
-    "age": 44,
-    "division": "Masters",
-    "rank": 61
-  },
-  {
-    "runner": "Michela Greco",
+    "runner": "Marie Arnesson Galler",
     "gender": "F",
     "team": "Sound Runner",
-    "total_points": 5,
+    "total_points": 6,
     "events": 1,
-    "age": 33,
-    "division": "Open",
+    "age": 43,
+    "division": "Masters",
     "rank": 52
   },
   {
-    "runner": "Joel Schrock",
+    "runner": "William Vannieuwenhuyze",
     "gender": "M",
-    "team": "Milford RR",
-    "total_points": 5,
+    "team": "Sound Runner",
+    "total_points": 6,
     "events": 1,
-    "age": 40,
-    "division": "Masters",
-    "rank": 61
-  },
-  {
-    "runner": "Jeff Anderson",
-    "gender": "M",
-    "team": "Mohegan Striders",
-    "total_points": 5,
-    "events": 1,
-    "age": 64,
+    "age": 63,
     "division": "Seniors",
-    "rank": 61
+    "rank": 58
   },
   {
-    "runner": "Tyler Lyon",
+    "runner": "Stephen Fengler",
     "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 5,
-    "events": 1,
-    "age": 32,
+    "team": "New Haven RR",
+    "total_points": 6,
+    "events": 2,
+    "age": 26,
     "division": "Open",
-    "rank": 61
+    "rank": 58
+  },
+  {
+    "runner": "Matthew Monahan",
+    "gender": "M",
+    "team": "New Haven RR",
+    "total_points": 6,
+    "events": 3,
+    "age": 53,
+    "division": "Grandmasters",
+    "rank": 58
   },
   {
     "runner": "LuAnne Roy",
@@ -1177,27 +1177,87 @@
     "events": 1,
     "age": 71,
     "division": "Veteran",
-    "rank": 52
+    "rank": 55
   },
   {
-    "runner": "Chris Rosenberg",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 4,
+    "runner": "Cynthia DeGirolamo",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 5,
+    "events": 2,
+    "age": 60,
+    "division": "Seniors",
+    "rank": 55
+  },
+  {
+    "runner": "Michela Greco",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 5,
     "events": 1,
-    "age": 35,
+    "age": 33,
     "division": "Open",
-    "rank": 65
+    "rank": 55
   },
   {
-    "runner": "Christopher Pagliuco",
+    "runner": "Vikash Malik",
     "gender": "M",
     "team": "Sound Runner",
-    "total_points": 4,
+    "total_points": 5,
     "events": 1,
-    "age": 48,
+    "age": 44,
     "division": "Masters",
-    "rank": 65
+    "rank": 64
+  },
+  {
+    "runner": "Paul Trehern",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 5,
+    "events": 1,
+    "age": 55,
+    "division": "Grandmasters",
+    "rank": 64
+  },
+  {
+    "runner": "Bridget Komosky",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 5,
+    "events": 1,
+    "age": 38,
+    "division": "Open",
+    "rank": 55
+  },
+  {
+    "runner": "Brittany Battis",
+    "gender": "F",
+    "team": "New Haven RR",
+    "total_points": 5,
+    "events": 1,
+    "age": 33,
+    "division": "Open",
+    "rank": 55
+  },
+  {
+    "runner": "Tyler Lyon",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 5,
+    "events": 1,
+    "age": 32,
+    "division": "Open",
+    "rank": 64
+  },
+  {
+    "runner": "Karol Szoch",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 5,
+    "events": 2,
+    "age": 33,
+    "division": "Open",
+    "rank": 64
   },
   {
     "runner": "Mike Dunlap",
@@ -1207,47 +1267,7 @@
     "events": 2,
     "age": 61,
     "division": "Seniors",
-    "rank": 65
-  },
-  {
-    "runner": "Colleen Cannariato",
-    "gender": "F",
-    "team": "Milford RR",
-    "total_points": 4,
-    "events": 1,
-    "age": 41,
-    "division": "Masters",
-    "rank": 55
-  },
-  {
-    "runner": "Jacob Olson",
-    "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 4,
-    "events": 1,
-    "age": 31,
-    "division": "Open",
-    "rank": 65
-  },
-  {
-    "runner": "George Mastrogiannis",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 4,
-    "events": 1,
-    "age": 52,
-    "division": "Grandmasters",
-    "rank": 65
-  },
-  {
-    "runner": "James Mas",
-    "gender": "M",
-    "team": "Milford RR",
-    "total_points": 4,
-    "events": 1,
-    "age": 67,
-    "division": "Seniors",
-    "rank": 65
+    "rank": 68
   },
   {
     "runner": "Molly Alexander",
@@ -1257,7 +1277,47 @@
     "events": 1,
     "age": 37,
     "division": "Open",
-    "rank": 55
+    "rank": 60
+  },
+  {
+    "runner": "Chris Rosenberg",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 4,
+    "events": 1,
+    "age": 35,
+    "division": "Open",
+    "rank": 68
+  },
+  {
+    "runner": "Colleen Cannariato",
+    "gender": "F",
+    "team": "Milford RR",
+    "total_points": 4,
+    "events": 1,
+    "age": 41,
+    "division": "Masters",
+    "rank": 60
+  },
+  {
+    "runner": "Jacob Olson",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 4,
+    "events": 1,
+    "age": 31,
+    "division": "Open",
+    "rank": 68
+  },
+  {
+    "runner": "Christopher Pagliuco",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 4,
+    "events": 1,
+    "age": 48,
+    "division": "Masters",
+    "rank": 68
   },
   {
     "runner": "Lisa Conyer",
@@ -1267,17 +1327,7 @@
     "events": 3,
     "age": 42,
     "division": "Masters",
-    "rank": 55
-  },
-  {
-    "runner": "Luke Macomber",
-    "gender": "M",
-    "team": "Milford RR",
-    "total_points": 4,
-    "events": 1,
-    "age": 53,
-    "division": "Grandmasters",
-    "rank": 65
+    "rank": 60
   },
   {
     "runner": "Jeremy Weiss",
@@ -1287,107 +1337,37 @@
     "events": 2,
     "age": 46,
     "division": "Masters",
-    "rank": 65
+    "rank": 68
   },
   {
-    "runner": "Brendan Behm",
-    "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 3,
-    "events": 1,
-    "age": 34,
-    "division": "Open",
-    "rank": 73
-  },
-  {
-    "runner": "Roy Krause",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 3,
-    "events": 1,
-    "age": 54,
-    "division": "Grandmasters",
-    "rank": 73
-  },
-  {
-    "runner": "Susan Bansbach",
-    "gender": "F",
-    "team": "Mohegan Striders",
-    "total_points": 3,
-    "events": 1,
-    "age": 25,
-    "division": "Open",
-    "rank": 58
-  },
-  {
-    "runner": "Felicia Liebler",
-    "gender": "F",
-    "team": "Manchester RC",
-    "total_points": 3,
-    "events": 1,
-    "age": 50,
-    "division": "Grandmasters",
-    "rank": 58
-  },
-  {
-    "runner": "Dennis Debatte",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 3,
-    "events": 1,
-    "age": 45,
-    "division": "Masters",
-    "rank": 73
-  },
-  {
-    "runner": "Cynthia Loynd",
-    "gender": "F",
-    "team": "Milford RR",
-    "total_points": 3,
-    "events": 1,
-    "age": 66,
-    "division": "Seniors",
-    "rank": 58
-  },
-  {
-    "runner": "Colin McNamee",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 3,
-    "events": 2,
-    "age": 43,
-    "division": "Masters",
-    "rank": 73
-  },
-  {
-    "runner": "Tommy OGorman",
-    "gender": "M",
-    "team": "Hartbeat TC",
-    "total_points": 3,
-    "events": 1,
-    "age": 27,
-    "division": "Open",
-    "rank": 73
-  },
-  {
-    "runner": "Mark Ammann",
+    "runner": "James Mas",
     "gender": "M",
     "team": "Milford RR",
-    "total_points": 3,
-    "events": 2,
-    "age": 65,
-    "division": "Seniors",
-    "rank": 73
-  },
-  {
-    "runner": "Stephan Finton",
-    "gender": "M",
-    "team": "Mohegan Striders",
-    "total_points": 3,
+    "total_points": 4,
     "events": 1,
     "age": 67,
     "division": "Seniors",
-    "rank": 73
+    "rank": 68
+  },
+  {
+    "runner": "George Mastrogiannis",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 4,
+    "events": 1,
+    "age": 52,
+    "division": "Grandmasters",
+    "rank": 68
+  },
+  {
+    "runner": "Luke Macomber",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 4,
+    "events": 1,
+    "age": 53,
+    "division": "Grandmasters",
+    "rank": 68
   },
   {
     "runner": "Edward Sweeney",
@@ -1397,7 +1377,107 @@
     "events": 1,
     "age": 60,
     "division": "Seniors",
-    "rank": 73
+    "rank": 76
+  },
+  {
+    "runner": "Brendan Behm",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 3,
+    "events": 1,
+    "age": 34,
+    "division": "Open",
+    "rank": 76
+  },
+  {
+    "runner": "Colin McNamee",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 3,
+    "events": 2,
+    "age": 43,
+    "division": "Masters",
+    "rank": 76
+  },
+  {
+    "runner": "Tommy OGorman",
+    "gender": "M",
+    "team": "Hartbeat TC",
+    "total_points": 3,
+    "events": 1,
+    "age": 27,
+    "division": "Open",
+    "rank": 76
+  },
+  {
+    "runner": "Dennis Debatte",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 3,
+    "events": 1,
+    "age": 45,
+    "division": "Masters",
+    "rank": 76
+  },
+  {
+    "runner": "Roy Krause",
+    "gender": "M",
+    "team": "Manchester RC",
+    "total_points": 3,
+    "events": 1,
+    "age": 54,
+    "division": "Grandmasters",
+    "rank": 76
+  },
+  {
+    "runner": "Susan Bansbach",
+    "gender": "F",
+    "team": "Mohegan Striders",
+    "total_points": 3,
+    "events": 1,
+    "age": 25,
+    "division": "Open",
+    "rank": 63
+  },
+  {
+    "runner": "Stephan Finton",
+    "gender": "M",
+    "team": "Mohegan Striders",
+    "total_points": 3,
+    "events": 1,
+    "age": 67,
+    "division": "Seniors",
+    "rank": 76
+  },
+  {
+    "runner": "Mark Ammann",
+    "gender": "M",
+    "team": "Milford RR",
+    "total_points": 3,
+    "events": 2,
+    "age": 65,
+    "division": "Seniors",
+    "rank": 76
+  },
+  {
+    "runner": "Felicia Liebler",
+    "gender": "F",
+    "team": "Manchester RC",
+    "total_points": 3,
+    "events": 1,
+    "age": 50,
+    "division": "Grandmasters",
+    "rank": 63
+  },
+  {
+    "runner": "Alan Macdougall",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 2,
+    "events": 1,
+    "age": 61,
+    "division": "Seniors",
+    "rank": 84
   },
   {
     "runner": "Phoebe Liu",
@@ -1407,7 +1487,7 @@
     "events": 1,
     "age": 25,
     "division": "Open",
-    "rank": 61
+    "rank": 65
   },
   {
     "runner": "Nicole Deziel",
@@ -1417,7 +1497,7 @@
     "events": 1,
     "age": 49,
     "division": "Masters",
-    "rank": 61
+    "rank": 65
   },
   {
     "runner": "Miranda Ip",
@@ -1427,27 +1507,7 @@
     "events": 1,
     "age": 47,
     "division": "Masters",
-    "rank": 61
-  },
-  {
-    "runner": "Nancy Montemerlo",
-    "gender": "F",
-    "team": "Hartbeat TC",
-    "total_points": 2,
-    "events": 1,
-    "age": 29,
-    "division": "Open",
-    "rank": 61
-  },
-  {
-    "runner": "Kevin Hoyt",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 2,
-    "events": 1,
-    "age": 35,
-    "division": "Open",
-    "rank": 81
+    "rank": 65
   },
   {
     "runner": "Kerry Milner",
@@ -1457,7 +1517,7 @@
     "events": 1,
     "age": 59,
     "division": "Grandmasters",
-    "rank": 61
+    "rank": 65
   },
   {
     "runner": "Emma Cavanagh",
@@ -1467,7 +1527,27 @@
     "events": 2,
     "age": 27,
     "division": "Open",
-    "rank": 61
+    "rank": 65
+  },
+  {
+    "runner": "Courtney Knapp",
+    "gender": "F",
+    "team": "Sound Runner",
+    "total_points": 2,
+    "events": 1,
+    "age": 36,
+    "division": "Open",
+    "rank": 65
+  },
+  {
+    "runner": "Kevin Hoyt",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 2,
+    "events": 1,
+    "age": 35,
+    "division": "Open",
+    "rank": 84
   },
   {
     "runner": "Manoel Leal",
@@ -1477,7 +1557,17 @@
     "events": 1,
     "age": 69,
     "division": "Seniors",
-    "rank": 81
+    "rank": 84
+  },
+  {
+    "runner": "Vincent Pistritto",
+    "gender": "M",
+    "team": "Sound Runner",
+    "total_points": 2,
+    "events": 2,
+    "age": 30,
+    "division": "Open",
+    "rank": 84
   },
   {
     "runner": "Rosann Diroma",
@@ -1487,37 +1577,27 @@
     "events": 1,
     "age": 67,
     "division": "Seniors",
-    "rank": 61
+    "rank": 65
   },
   {
-    "runner": "Karol Szoch",
-    "gender": "M",
-    "team": "Manchester RC",
-    "total_points": 1,
-    "events": 1,
-    "age": 33,
-    "division": "Open",
-    "rank": 83
-  },
-  {
-    "runner": "Jonathan Briskman",
-    "gender": "M",
-    "team": "New Haven RR",
-    "total_points": 1,
-    "events": 1,
-    "age": 34,
-    "division": "Open",
-    "rank": 83
-  },
-  {
-    "runner": "Cynthia DeGirolamo",
+    "runner": "Nancy Montemerlo",
     "gender": "F",
-    "team": "Milford RR",
+    "team": "Hartbeat TC",
+    "total_points": 2,
+    "events": 1,
+    "age": 29,
+    "division": "Open",
+    "rank": 65
+  },
+  {
+    "runner": "Denise Descheneaux",
+    "gender": "F",
+    "team": "Mohegan Striders",
     "total_points": 1,
     "events": 1,
-    "age": 59,
+    "age": 57,
     "division": "Grandmasters",
-    "rank": 68
+    "rank": 73
   },
   {
     "runner": "Lorraine Giantonio",
@@ -1527,7 +1607,17 @@
     "events": 1,
     "age": 63,
     "division": "Seniors",
-    "rank": 68
+    "rank": 73
+  },
+  {
+    "runner": "Jonathan Briskman",
+    "gender": "M",
+    "team": "New Haven RR",
+    "total_points": 1,
+    "events": 1,
+    "age": 34,
+    "division": "Open",
+    "rank": 88
   },
   {
     "runner": "Lucas Dellaporta",
@@ -1537,7 +1627,7 @@
     "events": 1,
     "age": 29,
     "division": "Open",
-    "rank": 83
+    "rank": 88
   },
   {
     "runner": "Roberto Piotto",
@@ -1547,16 +1637,6 @@
     "events": 1,
     "age": 28,
     "division": "Open",
-    "rank": 83
-  },
-  {
-    "runner": "Vincent Pistritto",
-    "gender": "M",
-    "team": "Sound Runner",
-    "total_points": 1,
-    "events": 1,
-    "age": 30,
-    "division": "Open",
-    "rank": 83
+    "rank": 88
   }
 ]
