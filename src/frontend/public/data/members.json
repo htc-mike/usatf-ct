@@ -30,7 +30,7 @@
     "division": "Open",
     "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Elyse Adamic",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Molly",
@@ -41,7 +41,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Molly Alexander",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Samuel",
@@ -52,7 +52,7 @@
     "division": "Open",
     "created_at": "2026-06-28T17:43:04.305684",
     "full_name": "Samuel Alexander",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Igor",
@@ -63,7 +63,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Igor Aliczi",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Kristen",
@@ -74,7 +74,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kristen Amick",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Mark",
@@ -85,7 +85,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mark Ammann",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Fabiola",
@@ -129,7 +129,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Megan Andrew",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Marie",
@@ -151,7 +151,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Gavin Arnold",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Max",
@@ -250,7 +250,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Sarah Barrett",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Charles",
@@ -272,7 +272,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brittany Battis",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Bryan",
@@ -283,7 +283,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bryan Bausinger",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Brendan",
@@ -294,7 +294,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brendan Behm",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Tom",
@@ -305,7 +305,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tom Benner",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Kenneth",
@@ -382,7 +382,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "James Boeding",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Dan",
@@ -415,7 +415,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ellianna Boothe",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Matt",
@@ -459,7 +459,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Raquel Brainard",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Jonathan",
@@ -503,7 +503,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bradford Buchta",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Paul",
@@ -602,7 +602,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lee Carlisle",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Tris",
@@ -701,7 +701,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Randy Chamberland",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Cameron",
@@ -712,7 +712,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cameron Chaplen",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Danielle",
@@ -734,7 +734,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cameron Cheyney",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Chris",
@@ -756,7 +756,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bob Chlum",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "David",
@@ -767,7 +767,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Chou",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Bruce",
@@ -800,7 +800,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jason Ciaciura",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Tracey",
@@ -811,7 +811,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tracey Clark",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Christopher",
@@ -822,7 +822,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christopher Colangelo",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Hayley",
@@ -833,7 +833,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Hayley Collins",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Andrea",
@@ -844,7 +844,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Andrea Condie",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Sarah",
@@ -877,7 +877,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Robert Cook",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Clare",
@@ -899,7 +899,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Linda Cordova",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Nicole",
@@ -943,7 +943,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brian Coyne",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Jennifer",
@@ -1064,7 +1064,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cynthia DeGirolamo",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Connor",
@@ -1130,7 +1130,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Denise Descheneaux",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Nicole",
@@ -1218,7 +1218,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shuhan Du",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Jeffrey",
@@ -1251,7 +1251,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mike Dunlap",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Jared",
@@ -1262,7 +1262,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jared Dybas",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Natalie",
@@ -1284,7 +1284,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Melissa Emmerich",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Robert",
@@ -1306,7 +1306,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Deb Esposito",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Katie",
@@ -1339,7 +1339,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ian Fenger",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Stephen",
@@ -1350,7 +1350,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Stephen Fengler",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Richard",
@@ -1361,7 +1361,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Richard Fernandes",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Travis",
@@ -1372,7 +1372,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Travis Fields",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "William",
@@ -1416,7 +1416,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ciaran Fisher",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Aaron",
@@ -1449,7 +1449,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Fleming",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Jillian",
@@ -1482,7 +1482,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David Fusfeld",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "John",
@@ -1493,7 +1493,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Gaffney",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Alison",
@@ -1504,7 +1504,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alison Gallerani",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Franklyn",
@@ -1515,7 +1515,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Franklyn Gandiaga",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Anne",
@@ -1526,7 +1526,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Anne Gaston",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Thomas",
@@ -1548,7 +1548,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Tom Geer",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Abby",
@@ -1559,7 +1559,7 @@
     "division": "Open",
     "created_at": "2026-06-28T17:43:04.305684",
     "full_name": "Abby Gerbo",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Lorraine",
@@ -1570,7 +1570,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Lorraine Giantonio",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Jason",
@@ -1603,7 +1603,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Larissa Giordano",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Charles",
@@ -1625,7 +1625,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin Glenn",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Marvin",
@@ -1680,7 +1680,7 @@
     "division": "Masters",
     "created_at": "2026-06-28T17:43:04.305684",
     "full_name": "Adam Gootnick",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Timothy",
@@ -1768,7 +1768,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Patrick Guelakis",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "David",
@@ -1801,7 +1801,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Susan Hammond",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Colleen",
@@ -1823,7 +1823,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kristen Hart",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Scott",
@@ -1834,7 +1834,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Scott Hart",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Rachel",
@@ -1867,7 +1867,7 @@
     "division": "Veteran",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Melinda Hedding",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Way",
@@ -1889,7 +1889,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mark Hegarty",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Shane",
@@ -1955,7 +1955,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Erin Hub",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Miranda",
@@ -1977,7 +1977,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Xavier Iraeta",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Mitchell",
@@ -2010,7 +2010,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Josephine Jayworth",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Dawn",
@@ -2021,7 +2021,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Dawn Jenci",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Amanda",
@@ -2043,7 +2043,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mary Johnson",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Kate",
@@ -2054,7 +2054,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kate Johnston",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Paul",
@@ -2065,7 +2065,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Johnston",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Kris Anne",
@@ -2153,7 +2153,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ned Kennedy",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Charlotte",
@@ -2186,7 +2186,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bob Kerwin",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Aaron",
@@ -2197,7 +2197,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Aaron King",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Beth",
@@ -2230,7 +2230,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Courtney Knapp",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Chaz",
@@ -2263,7 +2263,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bridget Komosky",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Allie",
@@ -2274,7 +2274,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Allie Konrad",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Andrew",
@@ -2340,7 +2340,7 @@
     "division": "Open",
     "created_at": "2026-06-28T17:43:04.305684",
     "full_name": "Dan Kupper",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "EMBERLEIGH",
@@ -2362,7 +2362,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ben Lanza",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Tristen",
@@ -2384,7 +2384,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicole LeBlanc",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Shahan",
@@ -2417,7 +2417,7 @@
     "division": "Veteran",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bonnie Lees",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Neal",
@@ -2461,7 +2461,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Phoebe Liu",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Cory",
@@ -2483,7 +2483,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mario Longo",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Cynthia",
@@ -2494,7 +2494,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cynthia Loynd",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Tiger",
@@ -2505,7 +2505,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Tiger Lu",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Tyler",
@@ -2549,7 +2549,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alessandro Macchi",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Alan",
@@ -2560,7 +2560,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alan Macdougall",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Margit",
@@ -2725,7 +2725,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "David McCrea-Dastur",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Kathryn",
@@ -2747,7 +2747,7 @@
     "division": "Veteran",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Derek McGlynn",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "David",
@@ -2846,7 +2846,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Thomas Messer",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Kevin",
@@ -2857,7 +2857,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kevin Michalka",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Nicholas",
@@ -2879,7 +2879,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kathryn Miller-Jensen",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Kerry",
@@ -2890,7 +2890,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kerry Milner",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Peter",
@@ -2912,7 +2912,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "John Minervino",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Michael",
@@ -2945,7 +2945,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Matthew Monahan",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Olivia",
@@ -2956,7 +2956,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Olivia Mondo",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Nancy",
@@ -2967,7 +2967,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nancy Montemerlo",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Tracy",
@@ -2989,7 +2989,7 @@
     "division": "Veteran",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Moyse",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Chris",
@@ -3033,7 +3033,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Matthew Murphy",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Eileen",
@@ -3055,7 +3055,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Alyssa Natario",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Caroline",
@@ -3066,7 +3066,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Caroline Nevin",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Geoffrey",
@@ -3077,7 +3077,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Geoffrey Nooney",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Carolyn",
@@ -3099,7 +3099,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Grant O'Connor",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Fran",
@@ -3121,7 +3121,7 @@
     "division": "Open",
     "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Morgan Oberhausen",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Tommy",
@@ -3209,7 +3209,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Katie Overstrum",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Kevin",
@@ -3253,7 +3253,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Miche Palmer",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Allen",
@@ -3308,7 +3308,7 @@
     "division": "Veteran",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Barbara Pearce",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Sara",
@@ -3341,7 +3341,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Debbie Perry",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Al",
@@ -3396,7 +3396,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marco Pirazzini",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Vincent",
@@ -3407,7 +3407,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Vincent Pistritto",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Madison",
@@ -3440,7 +3440,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Pozika",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Erin",
@@ -3473,7 +3473,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Olivia Provance",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Daniel",
@@ -3495,7 +3495,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Marilyn Quinlan",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Rachel",
@@ -3517,7 +3517,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Omar Radwan",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Lani",
@@ -3550,7 +3550,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Mira Records",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Mary",
@@ -3627,7 +3627,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Shelly Rivera",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Victor",
@@ -3638,7 +3638,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Victor Rivera",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Bill",
@@ -3649,7 +3649,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Bill Rollinson",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Katelynn",
@@ -3671,7 +3671,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Colin Rooney",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Chris",
@@ -3682,7 +3682,7 @@
     "division": "Open",
     "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Chris Rosenberg",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Christopher",
@@ -3737,7 +3737,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Phil Roucoulet",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "LuAnne",
@@ -3869,7 +3869,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Nicholas Schindler",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Eric",
@@ -3880,7 +3880,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Eric Schreiber",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Joel",
@@ -3891,7 +3891,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Joel Schrock",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Pia",
@@ -3924,7 +3924,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kathleen Shaw",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Ethan",
@@ -3946,7 +3946,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jessica Smith",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "John",
@@ -4001,7 +4001,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kristin Spirdione",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Michael",
@@ -4056,7 +4056,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Cassandra Steptoe",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Eric",
@@ -4089,7 +4089,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Brett Stoeffler",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Christopher",
@@ -4166,7 +4166,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ryan Sullivan",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Edward",
@@ -4210,7 +4210,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Karol Szoch",
-    "races_participated": 2
+    "races_participated": 3
   },
   {
     "first_name": "Tricky",
@@ -4298,7 +4298,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Paul Trehern",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Louis",
@@ -4309,7 +4309,7 @@
     "division": "Veteran",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Louis Trevisan",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Andrew",
@@ -4331,7 +4331,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Steven Urgiles Noguera",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "PETER",
@@ -4397,7 +4397,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "William VanNieuwenhuyze",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Mario",
@@ -4419,7 +4419,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Arianna Vessicchio",
-    "races_participated": 4
+    "races_participated": 5
   },
   {
     "first_name": "Janet",
@@ -4430,7 +4430,7 @@
     "division": "Veteran",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Janet Voelpert",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Jeffrey",
@@ -4441,7 +4441,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeffrey Vuono",
-    "races_participated": 0
+    "races_participated": 1
   },
   {
     "first_name": "Brooke",
@@ -4474,7 +4474,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T05:03:07.372642",
     "full_name": "Jeff Walker",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Jeffrey",
@@ -4540,7 +4540,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Michael Waterbury",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Kristin",
@@ -4584,7 +4584,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeremy Weiss",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Don",
@@ -4628,7 +4628,7 @@
     "division": "Open",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Ken Whitney",
-    "races_participated": 1
+    "races_participated": 2
   },
   {
     "first_name": "Sarah",
@@ -4650,7 +4650,7 @@
     "division": "Grandmasters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Kirsten Wilkins",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Christina",
@@ -4661,7 +4661,7 @@
     "division": "Masters",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Christina Williams",
-    "races_participated": 3
+    "races_participated": 4
   },
   {
     "first_name": "Dave",
@@ -4727,7 +4727,7 @@
     "division": "Seniors",
     "created_at": "2026-06-05T04:57:23.167961",
     "full_name": "Jeffrey Zelek",
-    "races_participated": 5
+    "races_participated": 6
   },
   {
     "first_name": "Mary",
