@@ -1,16 +1,5 @@
 [
   {
-    "id": 7,
-    "name": "Faxon Law New Haven 20k",
-    "date": "2026-09-07",
-    "location": "New Haven, CT",
-    "dist_mi": 12.43,
-    "tab_name": null,
-    "col_name": "NH20K",
-    "url": "https://www.newhavenroadrace.org/",
-    "has_results": true
-  },
-  {
     "id": 8,
     "name": "Bound for the Sound 10K",
     "date": "2026-09-19",
@@ -19,7 +8,7 @@
     "tab_name": null,
     "col_name": "OL10K",
     "url": "https://runsignup.com/Race/CT/OldLyme/BoundfortheSound",
-    "has_results": false
+    "has_results": true
   },
   {
     "id": 3,
@@ -85,6 +74,17 @@
     "tab_name": "New Haven 5K",
     "col_name": "NH5K",
     "url": "https://www.jbsports.com/991-plr-shamrock-roll",
+    "has_results": true
+  },
+  {
+    "id": 7,
+    "name": "Faxon Law New Haven 20k",
+    "date": "2026-09-07",
+    "location": "New Haven, CT",
+    "dist_mi": 12.43,
+    "tab_name": null,
+    "col_name": "NH20K",
+    "url": "https://www.newhavenroadrace.org/",
     "has_results": true
   }
 ]
