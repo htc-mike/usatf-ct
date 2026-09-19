@@ -5,6 +5,7 @@ import { fetchIndividual, fetchIndividualPoints } from '../services/api'
 import FilterBar from '../components/FilterBar'
 import DataGrid from '../components/DataGrid'
 import { Spinner, ErrorState } from '../components/LoadingState'
+import { matchesDivision } from '../lib/division'
 
 const FILTER_DEFS = [
   { key: 'event_name', label: 'Event' },
@@ -75,23 +76,6 @@ const COLS_AFTER_RUNNER = [
   { key: 'gender_rank',    label: 'Gender Rank', type: 'rank' },
   { key: 'event_name',     label: 'Event' },
 ]
-
-/**
- * Division filter checks eligibility (a 55-yr-old IS a Masters runner too).
- */
-function matchesDivision(row, divFilter) {
-  if (!divFilter) return true
-  const age = Number(row.age)
-  if (isNaN(age)) return false
-  switch (divFilter) {
-    case 'Open':          return age >= 16
-    case 'Masters':       return age >= 40
-    case 'Grandmasters':  return age >= 50
-    case 'Seniors':       return age >= 60
-    case 'Veteran':       return age >= 70
-    default:              return true
-  }
-}
 
 export default function Individual() {
   const { data, loading, error, reload }               = useData(fetchIndividual)

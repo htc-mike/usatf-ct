@@ -49,6 +49,8 @@ team_place_points = {
     6: 5,
     7: 4,
     8: 3,
+    9: 2,
+    10: 1
 }
 
 def main():
@@ -85,7 +87,8 @@ def reprocess_all_events():
 def load_file_match_results(event_id:int, results_file:str):
     ## first_name,last_name,name,place,sex,age,time,time_in_millis
 
-    data.delete_results(event_id)
+    if event_id is not None:
+        data.delete_results(event_id)
     data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data")
     events_path = os.path.join(data_dir, results_file)
     df_results = pd.read_csv(events_path)
@@ -339,6 +342,8 @@ def get_match_results(df_members, df_results) -> pd.DataFrame | None:
         print(f"  WARNING: {pd.Series(dupes['name']).nunique()} runner(s) matched multiple members (match_key collision):")
         for runner_name, grp in dupes.groupby('name'):
             print(f"    {runner_name}: matched {list(grp['first_name_x'] + ' ' + grp['last_name_x'])}")
+        # Keep one row per race result so division ranks match individual points.
+        df_match = df_match.drop_duplicates(subset=['name'], keep='first')
 
     print(f'  Matches: {str(len(df_match.index))}')
 

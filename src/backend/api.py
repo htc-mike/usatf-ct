@@ -61,22 +61,6 @@ app.add_middleware(
 
 
 # ---------------------------------------------------------------------------
-# Constants
-# ---------------------------------------------------------------------------
-
-# members.division uses 2-letter codes: gender prefix (M/F) + division initial
-# (O=Open, M=Masters, G=Grandmasters, S=Seniors, V=Veteran).
-# This map decodes them to the canonical division names used everywhere else.
-MEMBER_DIV_TO_DIVISION: dict[str, str] = {
-    "MO": "Open",          "FO": "Open",
-    "MM": "Masters",       "FM": "Masters",
-    "MG": "Grandmasters",  "FG": "Grandmasters",
-    "MS": "Seniors",       "FS": "Seniors",
-    "MV": "Veteran",       "FV": "Veteran",
-}
-
-
-# ---------------------------------------------------------------------------
 # Internal helpers
 # ---------------------------------------------------------------------------
 
@@ -127,6 +111,24 @@ def _add_division_from_age(df: pd.DataFrame, age_col: str = "age") -> pd.DataFra
 
     df["division"] = ages.apply(_primary)  # type: ignore[union-attr]
     return df
+
+
+def _division_place(df: pd.DataFrame) -> pd.Series:
+    """Place within event, primary division, and gender (1 = first in that group)."""
+    empty = pd.Series([pd.NA] * len(df), index=df.index)
+    if df.empty or "division" not in df.columns:
+        return empty
+    rank_col = "place" if "place" in df.columns else (
+        "time_in_millis" if "time_in_millis" in df.columns else None
+    )
+    if rank_col is None:
+        return empty
+    group_cols = [c for c in ("event_id", "division", "sex") if c in df.columns]
+    ranked = df.groupby(group_cols, dropna=False)[rank_col].rank(
+        method="min", ascending=True
+    )
+    no_div = df["division"].fillna("").astype(str).str.strip() == ""
+    return ranked.where(~no_div)
 
 
 def _add_pace(df: pd.DataFrame) -> pd.DataFrame:
@@ -202,7 +204,12 @@ def get_events():
 def get_results():
     """
     Raw race results for all events.
-    Augmented with event_name, team, and division (via members lookup).
+    Augmented with event_name, pace, team, and race-day age division.
+
+    Team comes from scored/matched individuals (same matching as Individual Points),
+    falling back to an exact members name lookup. Every finisher gets a single
+    primary division from race-day age (Open / Masters / Grandmasters / Seniors /
+    Veteran), whether or not they are a USATF member.
     """
     try:
         df = ds._read_tab(ds.TAB_RESULTS)
@@ -219,6 +226,7 @@ def get_results():
 
         df = _add_pace(df)
 
+        df["team"] = ""
         members = ds.get_members()
         if not members.empty:
             members = members.copy()
@@ -228,15 +236,29 @@ def get_results():
             df["team"] = (
                 df["name"].map(dict(zip(members["full_name"], members["team"]))).fillna("")  # type: ignore[arg-type]
             )
-            decoded_div = members["division"].map(MEMBER_DIV_TO_DIVISION).fillna(members["division"])  # type: ignore[arg-type]
-            df["division"] = (
-                df["name"]
-                .map(dict(zip(members["full_name"], decoded_div)))  # type: ignore[arg-type]
-                .fillna("")
+
+        # Overlay team from the scoring match (covers Jeff vs Jeffrey, etc.)
+        individuals = ds.get_individuals()
+        if not individuals.empty and "runner" in individuals.columns:
+            ind = individuals[["event_id", "runner", "team"]].drop_duplicates(
+                subset=["event_id", "runner"], keep="first"
             )
-        else:
-            df["team"] = ""
-            df = _add_division_from_age(df, "age")
+            ind = ind.rename(columns={"team": "matched_team"})
+            ind["event_id"] = pd.to_numeric(ind["event_id"], errors="coerce")
+            df = df.merge(
+                ind,
+                how="left",
+                left_on=["event_id", "name"],
+                right_on=["event_id", "runner"],
+            )
+            matched_team = df["matched_team"].fillna("").astype(str)
+            use_matched = matched_team.str.strip() != ""
+            df.loc[use_matched, "team"] = matched_team[use_matched]
+            df["team"] = df["team"].fillna("")
+            df = df.drop(columns=["matched_team", "runner"], errors="ignore")
+
+        df = _add_division_from_age(df, "age")
+        df["division_place"] = _division_place(df)
         return _to_records(df)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

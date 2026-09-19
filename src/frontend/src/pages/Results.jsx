@@ -14,15 +14,16 @@ const FILTER_DEFS = [
 ]
 
 const COLUMNS = [
-  { key: 'place',      label: 'Place',   type: 'rank' },
-  { key: 'name',       label: 'Name' },
-  { key: 'sex',        label: 'Gender',  type: 'gender' },
-  { key: 'age',        label: 'Age' },
-  { key: 'time',       label: 'Time',    type: 'time' },
-  { key: 'pace',       label: 'Pace/mi', type: 'time' },
-  { key: 'team',       label: 'Team' },
-  { key: 'division',   label: 'Division', type: 'division' },
-  { key: 'event_name', label: 'Event' },
+  { key: 'place',           label: 'Event Place',    type: 'rank' },
+  { key: 'division_place',  label: 'Division Place', type: 'rank' },
+  { key: 'name',            label: 'Name' },
+  { key: 'sex',             label: 'Gender',         type: 'gender' },
+  { key: 'age',             label: 'Age' },
+  { key: 'time',            label: 'Time',           type: 'time' },
+  { key: 'pace',            label: 'Pace/mi',        type: 'time' },
+  { key: 'team',            label: 'Team' },
+  { key: 'division',        label: 'Division',       type: 'division' },
+  { key: 'event_name',      label: 'Event' },
 ]
 
 export default function Results() {
